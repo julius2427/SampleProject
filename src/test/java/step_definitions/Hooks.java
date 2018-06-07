@@ -4,6 +4,7 @@ import java.net.MalformedURLException;
 
 import org.openqa.selenium.WebDriver;
 
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
 public class Hooks extends AbstractPageStepDefinitions{
@@ -15,8 +16,8 @@ public class Hooks extends AbstractPageStepDefinitions{
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 	}
-/*	@After
-	public void closeBrowser() {
-		driver.quit();
-	}*/
+//	@After
+//	public void closeBrowser() {
+//		driver.quit();
+//	}
 }

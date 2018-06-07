@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AbstractPageStepDefinitions {
-	protected static WebDriver driver;
+	protected WebDriver driver;
 	private String environment;
 	protected WebDriver getDriver() {
 		if(driver == null) {
