@@ -1,5 +1,7 @@
 package step_definitions;
 
+import static org.junit.Assert.assertTrue;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,7 +17,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CommonFunctions extends AbstractPageStepDefinitions{
 	private static int lastrowNum;
-	private static String URL;
+//	private static String URL;
 	public static void navigate_to(WebDriver driver, String url) {
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
@@ -36,7 +38,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			break;
 		}
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -57,12 +59,51 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			break;
 		}
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
+
+	public static void clear_element(WebDriver driver, String strLocType, String strLocValue) {
+		switch(strLocType) {
+		case "id":
+			driver.findElement(By.id(strLocValue)).clear();;
+			break;
+		case "xpath":
+			driver.findElement(By.xpath(strLocValue)).clear();
+			break;
+		case "css":
+			driver.findElement(By.cssSelector(strLocValue)).clear();
+			break;
+		}
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void verify_element(WebDriver driver, String strLocType, String strLocValue, String Param1) {
+		String actualString = null;
+		switch(strLocType) {
+		case "id":
+			actualString = driver.findElement(By.id(strLocValue)).getText();;
+			break;
+		case "xpath":
+			actualString = driver.findElement(By.xpath(strLocValue)).getText();
+			break;
+		case "css":
+			actualString = driver.findElement(By.cssSelector(strLocValue)).getText();
+			break;
+		}
+		assertTrue(actualString.contains(Param1));
+	}
+	public static void quit(WebDriver driver) {
+		driver.quit();
+	}
+	
 	
 	public static String[][] FetchDataFromExcel(String path) throws IOException
 	{
@@ -72,7 +113,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 				File excel= new File(path);
 				FileInputStream fis= new FileInputStream(excel);
 				HSSFWorkbook wb= new HSSFWorkbook(fis);
-				HSSFSheet ws= wb.getSheet("Sheet1");
+				HSSFSheet ws= wb.getSheet("ContactUs");
 				
 				int rowNum=ws.getLastRowNum()+1;
 				System.out.println("LAST ROW NUMBER EQUALS!!! " + rowNum);

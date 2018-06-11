@@ -86,10 +86,6 @@ formatter.feature({
     }
   ]
 });
-formatter.before({
-  "duration": 2924227382,
-  "status": "passed"
-});
 formatter.scenario({
   "line": 23,
   "name": "Test Scenario",
@@ -118,14 +114,14 @@ formatter.match({
   "location": "CommonStepDefinitions.i_want_to_grab_list_of_test_cases()"
 });
 formatter.result({
-  "duration": 31618825457,
+  "duration": 38528135337,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinitions.i_validate_the_outcomes()"
 });
 formatter.result({
-  "duration": 19752,
+  "duration": 18059,
   "status": "passed"
 });
 });
