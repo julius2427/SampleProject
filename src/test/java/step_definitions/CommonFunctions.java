@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CommonFunctions extends AbstractPageStepDefinitions{
 	private static int lastrowNum;
+	private static String SheetName;
 //	private static String URL;
 	public static void navigate_to(WebDriver driver, String url) {
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
@@ -113,7 +114,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 				File excel= new File(path);
 				FileInputStream fis= new FileInputStream(excel);
 				HSSFWorkbook wb= new HSSFWorkbook(fis);
-				HSSFSheet ws= wb.getSheet("ContactUs");
+				HSSFSheet ws= wb.getSheet(SheetName);
 				
 				int rowNum=ws.getLastRowNum()+1;
 				System.out.println("LAST ROW NUMBER EQUALS!!! " + rowNum);
@@ -177,5 +178,11 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 	}
 	public static int getLastRowNum() {
 		return lastrowNum;
+	}
+	public static void setSheetName(String SheetName) {
+		CommonFunctions.SheetName = SheetName;
+	}
+	public static String getSheetName() {
+		return SheetName;
 	}
 }

@@ -4,7 +4,7 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 
 public class KeywordFramework extends CommonFunctions {
-	public static void main(WebDriver driver, String TestCaseSheet) throws IOException, InterruptedException {
+	public static void main(WebDriver driver) throws IOException, InterruptedException {
 		int last_row;
 		String data[][] = FetchDataFromExcel("/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/KeywordDrivenFramework.xls");
 		System.out.println("WE MADE IT INTO THE CLASS KEYWORDFRAMEWORK");

@@ -7,10 +7,11 @@ import cucumber.api.java.en.Then;
 
 public class CommonStepDefinitions extends CommonFunctions{
 	WebDriver driver = getDriver();
-	@Given("^I want to grab list of test cases$")
-	public void i_want_to_grab_list_of_test_cases() throws Throwable {
+	@Given("^I want to grab \"([^\"]*)\" test cases$")
+	public void i_want_to_grab_list_of_test_cases(String Arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		KeywordFramework.main(driver, "ContactUs");
+		setSheetName(Arg1);
+		KeywordFramework.main(driver);
 		Thread.sleep(1000);
 	}
 

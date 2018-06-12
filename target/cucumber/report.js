@@ -102,7 +102,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 24,
-  "name": "I want to grab list of test cases",
+  "name": "I want to grab \"ContactUs\" test cases",
   "keyword": "Given "
 });
 formatter.step({
@@ -111,17 +111,23 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CommonStepDefinitions.i_want_to_grab_list_of_test_cases()"
+  "arguments": [
+    {
+      "val": "ContactUs",
+      "offset": 16
+    }
+  ],
+  "location": "CommonStepDefinitions.i_want_to_grab_list_of_test_cases(String)"
 });
 formatter.result({
-  "duration": 38528135337,
+  "duration": 42472373029,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinitions.i_validate_the_outcomes()"
 });
 formatter.result({
-  "duration": 18059,
+  "duration": 44282,
   "status": "passed"
 });
 });

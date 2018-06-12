@@ -21,5 +21,5 @@ Feature: Keyword Driven Approach
 
   @tag1
   Scenario: Test Scenario
-    Given I want to grab list of test cases
+    Given I want to grab "ContactUs" test cases
     Then I validate the outcomes
