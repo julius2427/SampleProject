@@ -86,13 +86,13 @@ formatter.feature({
     }
   ]
 });
-formatter.scenario({
+formatter.scenarioOutline({
   "line": 23,
-  "name": "Test Scenario",
+  "name": "Smoke Test",
   "description": "",
-  "id": "keyword-driven-approach;test-scenario",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "id": "keyword-driven-approach;smoke-test",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
       "line": 22,
@@ -102,7 +102,61 @@ formatter.scenario({
 });
 formatter.step({
   "line": 24,
-  "name": "I want to grab \"ContactUs\" test cases",
+  "name": "I want to grab \"\u003cSheetName\u003e\" test cases",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 25,
+  "name": "I validate the outcomes",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 27,
+  "name": "",
+  "description": "",
+  "id": "keyword-driven-approach;smoke-test;",
+  "rows": [
+    {
+      "cells": [
+        "SheetName"
+      ],
+      "line": 28,
+      "id": "keyword-driven-approach;smoke-test;;1"
+    },
+    {
+      "cells": [
+        "Search"
+      ],
+      "line": 29,
+      "id": "keyword-driven-approach;smoke-test;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "Smoke Test",
+  "description": "",
+  "id": "keyword-driven-approach;smoke-test;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@tag"
+    },
+    {
+      "line": 22,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 24,
+  "name": "I want to grab \"Search\" test cases",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "Given "
 });
 formatter.step({
@@ -113,21 +167,21 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "ContactUs",
+      "val": "Search",
       "offset": 16
     }
   ],
   "location": "CommonStepDefinitions.i_want_to_grab_list_of_test_cases(String)"
 });
 formatter.result({
-  "duration": 42472373029,
-  "status": "passed"
+  "duration": 124504022117,
+  "error_message": "java.lang.NullPointerException\n\tat step_definitions.KeywordFramework.main(KeywordFramework.java:25)\n\tat step_definitions.CommonStepDefinitions.i_want_to_grab_list_of_test_cases(CommonStepDefinitions.java:14)\n\tat ✽.Given I want to grab \"Search\" test cases(cucumber/features/KeywordDrivenTest.feature:24)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "CommonStepDefinitions.i_validate_the_outcomes()"
 });
 formatter.result({
-  "duration": 44282,
-  "status": "passed"
+  "status": "skipped"
 });
 });

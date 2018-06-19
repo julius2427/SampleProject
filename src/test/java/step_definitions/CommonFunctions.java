@@ -1,9 +1,10 @@
 package step_definitions;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +13,10 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import static org.hamcrest.CoreMatchers.containsString;
 
 
 public class CommonFunctions extends AbstractPageStepDefinitions{
@@ -25,6 +29,8 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		driver.manage().window().maximize();
 		System.out.println("URL IS AS FOLLOWS!!! " + url);
 		driver.navigate().to(url);
+		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		
 	}
 	public static void send_element(WebDriver driver, String strLocType, String strLocValue, String Param1) {
 		switch(strLocType) {
@@ -51,12 +57,15 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		switch(strLocType) {
 		case "id":
 			driver.findElement(By.id(strLocValue)).click();
+			driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 			break;
 		case "xpath":
 			driver.findElement(By.xpath(strLocValue)).click();
+			driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 			break;
 		case "css":
 			driver.findElement(By.cssSelector(strLocValue)).click();
+			driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 			break;
 		}
 		try {
@@ -70,7 +79,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 	public static void clear_element(WebDriver driver, String strLocType, String strLocValue) {
 		switch(strLocType) {
 		case "id":
-			driver.findElement(By.id(strLocValue)).clear();;
+			driver.findElement(By.id(strLocValue)).clear();
 			break;
 		case "xpath":
 			driver.findElement(By.xpath(strLocValue)).clear();
@@ -85,6 +94,33 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	public static void verify_displayed(WebDriver driver, String strLocType, String strLocValue) {
+		switch(strLocType) {
+		case "id":
+			assertTrue(driver.findElement(By.id(strLocValue)).isDisplayed());
+			break;
+		case "xpath":
+			assertTrue(driver.findElement(By.xpath(strLocValue)).isDisplayed());
+			break;
+		case "css":
+			assertTrue(driver.findElement(By.cssSelector(strLocValue)).isDisplayed());
+			break;
+		}
+	}
+	public static void verify_url(WebDriver driver, String Param1) {
+		assertThat(driver.getCurrentUrl(), containsString(Param1));
+		System.out.println("Made it past assert statement for SSL VERIFICATION");
+	}
+	
+	public static void quit(WebDriver driver) {
+		driver.quit();
+	}
+	public static void resize_window(WebDriver driver, String Dimension1, String Dimension2) {
+		int dim1 = Integer.parseInt(Dimension1);
+		int dim2 = Integer.parseInt(Dimension2);
+		Dimension d = new Dimension(dim1, dim2);
+		driver.manage().window().setSize(d);
 	}
 	public static void verify_element(WebDriver driver, String strLocType, String strLocValue, String Param1) {
 		String actualString = null;
@@ -101,12 +137,25 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		}
 		assertTrue(actualString.contains(Param1));
 	}
-	public static void quit(WebDriver driver) {
-		driver.quit();
+	public static void click_enter(WebDriver driver, String strLocType, String strLocValue, String Param1) {
+	
+		switch(strLocType) {
+		case "id":
+			driver.findElement(By.id(strLocValue)).sendKeys(Param1);
+			driver.findElement(By.id(strLocValue)).sendKeys(Keys.ENTER);
+			break;
+		case "xpath":
+			driver.findElement(By.xpath(strLocValue)).sendKeys(Param1);
+			driver.findElement(By.xpath(strLocValue)).sendKeys(Keys.ENTER);
+			break;
+		case "css":
+			driver.findElement(By.cssSelector(strLocValue)).sendKeys(Param1);
+			driver.findElement(By.cssSelector(strLocValue)).sendKeys(Keys.ENTER);
+			break;
+		}
 	}
 	
-	
-	public static String[][] FetchDataFromExcel(String path) throws IOException
+	public static String[][] FetchDataFromExcel(String path, int sheetNumber) throws IOException
 	{
 
 		//Change File name as per file location on machine
@@ -114,10 +163,9 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 				File excel= new File(path);
 				FileInputStream fis= new FileInputStream(excel);
 				HSSFWorkbook wb= new HSSFWorkbook(fis);
-				HSSFSheet ws= wb.getSheet(SheetName);
+				HSSFSheet ws= wb.getSheetAt(sheetNumber);
 				
 				int rowNum=ws.getLastRowNum()+1;
-				System.out.println("LAST ROW NUMBER EQUALS!!! " + rowNum);
 				setLastRowNum(rowNum);
 				int colNum=ws.getRow(0).getLastCellNum();
 				
@@ -128,6 +176,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 					HSSFRow row=ws.getRow(i);
 					for(int j=0; j<colNum; j++)
 					{
+						
 						HSSFCell cell= row.getCell(j);
 						String value=cellToString(cell);
 						data[i][j]=value;				
@@ -173,6 +222,17 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		return strReturn;
 	
 	}
+	public static int NumberofSheets(String path) throws IOException{
+		int numberofsheets;
+		File excel= new File(path);
+		FileInputStream fis= new FileInputStream(excel);
+		HSSFWorkbook wb= new HSSFWorkbook(fis);
+		numberofsheets = wb.getNumberOfSheets();
+		wb.close();
+		fis.close();
+		return numberofsheets;
+	}
+	
 	public static void setLastRowNum(int lastrow) {
 		CommonFunctions.lastrowNum = lastrow;
 	}

@@ -1,12 +1,5 @@
 package step_definitions;
 
-import java.net.MalformedURLException;
-
-import org.openqa.selenium.WebDriver;
-
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-
 public class Hooks extends AbstractPageStepDefinitions{
 	//WebDriver driver = getDriver();
 /*	@Before

@@ -20,6 +20,10 @@
 Feature: Keyword Driven Approach
 
   @tag1
-  Scenario: Test Scenario
-    Given I want to grab "ContactUs" test cases
+  Scenario Outline: Smoke Test
+    Given I want to grab "<SheetName>" test cases
     Then I validate the outcomes
+
+    Examples: 
+      | SheetName   |
+      | Search |
