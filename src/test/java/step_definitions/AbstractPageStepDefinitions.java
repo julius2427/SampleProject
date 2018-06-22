@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class AbstractPageStepDefinitions {
 	protected WebDriver driver;
 	private String environment;
+
 	protected WebDriver getDriver() {
 		if(driver == null) {
 			driver = new FirefoxDriver();

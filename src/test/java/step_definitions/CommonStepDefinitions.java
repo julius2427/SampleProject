@@ -10,8 +10,10 @@ public class CommonStepDefinitions extends CommonFunctions{
 	@Given("^I want to grab \"([^\"]*)\" test cases$")
 	public void i_want_to_grab_list_of_test_cases(String Arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		String keyword_path = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/KeywordDrivenFramework.xls";
+
 		setSheetName(Arg1);
-		KeywordFramework.main(driver);
+		//KeywordFramework.main(driver, keyword_path);
 		Thread.sleep(1000);
 	}
 

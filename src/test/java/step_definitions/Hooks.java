@@ -1,8 +1,8 @@
 package step_definitions;
 
 public class Hooks extends AbstractPageStepDefinitions{
-	//WebDriver driver = getDriver();
-/*	@Before
+/*	//WebDriver driver = getDriver();
+	@Before
 	public void openBrowser() throws MalformedURLException{
 		System.out.println("Called Open Browser");
 		driver.manage().deleteAllCookies();

@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 124.99 sec <<< FAILURE!
-Given I want to grab "Search" test cases(| Search |)  Time elapsed: 0.005 sec  <<< ERROR!
-java.lang.NullPointerException
-	at step_definitions.KeywordFramework.main(KeywordFramework.java:25)
-	at step_definitions.CommonStepDefinitions.i_want_to_grab_list_of_test_cases(CommonStepDefinitions.java:14)
-	at ✽.Given I want to grab "Search" test cases(cucumber/features/KeywordDrivenTest.feature:24)
-
-| Search |  Time elapsed: 0.006 sec  <<< ERROR!
-java.lang.NullPointerException
-	at step_definitions.KeywordFramework.main(KeywordFramework.java:25)
-	at step_definitions.CommonStepDefinitions.i_want_to_grab_list_of_test_cases(CommonStepDefinitions.java:14)
-	at ✽.Given I want to grab "Search" test cases(cucumber/features/KeywordDrivenTest.feature:24)
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 sec

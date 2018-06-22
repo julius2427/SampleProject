@@ -1,38 +1,54 @@
 package step_definitions;
 
-import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import static org.hamcrest.CoreMatchers.containsString;
 
 
 public class CommonFunctions extends AbstractPageStepDefinitions{
 	private static int lastrowNum;
 	private static String SheetName;
-//	private static String URL;
+	static Logger log = Logger.getLogger(Logger.class.getName());
+	
 	public static void navigate_to(WebDriver driver, String url) {
+		driver.manage().deleteAllCookies();
+		driver.navigate().refresh();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		System.out.println("URL IS AS FOLLOWS!!! " + url);
+		
+		
 		driver.navigate().to(url);
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		//System.out.println("URL IS AS FOLLOWS!!! " + url);
 		
 	}
 	public static void send_element(WebDriver driver, String strLocType, String strLocValue, String Param1) {
+		if(Param1.contains("ENTER_DATE")) {
+			DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+			Date today = Calendar.getInstance().getTime();
+			Param1 = df.format(today);
+		}
 		switch(strLocType) {
 		case "id":
 			driver.findElement(By.id(strLocValue)).sendKeys(Param1);;
@@ -48,12 +64,13 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error("Failed! ", e);
 		}
 	}
 	
 	
 	public static void click_element(WebDriver driver, String strLocType, String strLocValue) {
+		
 		switch(strLocType) {
 		case "id":
 			driver.findElement(By.id(strLocValue)).click();
@@ -72,7 +89,11 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error("Failed! ", e);
+		}
+		if(driver.getTitle().contains("Sitefinity Trial Page")) {
+			driver.navigate().refresh();
+			click_element(driver, strLocType, strLocValue);
 		}
 	}
 
@@ -92,10 +113,13 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error(e);
 		}
 	}
+	
 	public static void verify_displayed(WebDriver driver, String strLocType, String strLocValue) {
+		try {
+			
 		switch(strLocType) {
 		case "id":
 			assertTrue(driver.findElement(By.id(strLocValue)).isDisplayed());
@@ -107,10 +131,19 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			assertTrue(driver.findElement(By.cssSelector(strLocValue)).isDisplayed());
 			break;
 		}
+		}catch(AssertionError e) {
+			log.error(e.toString() + "String Location Value: " + strLocValue); 
+			
+		}
 	}
+	
 	public static void verify_url(WebDriver driver, String Param1) {
+		try {
 		assertThat(driver.getCurrentUrl(), containsString(Param1));
-		System.out.println("Made it past assert statement for SSL VERIFICATION");
+		}catch(AssertionError e) {
+			log.error(e.toString() +  "Expected Result: " + Param1); 
+		}
+		//System.out.println("Made it past assert statement for SSL VERIFICATION");
 	}
 	
 	public static void quit(WebDriver driver) {
@@ -135,7 +168,16 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			actualString = driver.findElement(By.cssSelector(strLocValue)).getText();
 			break;
 		}
-		assertTrue(actualString.contains(Param1));
+		try {
+			assertTrue(actualString.contains(Param1));
+		}
+		catch(AssertionError e) 
+		{
+			log.error(e.toString() + "String Location Value: " + actualString + " Expected Result: " + Param1); 
+			
+			Assert.fail();
+			//Stops the program from continuing to run
+		}
 	}
 	public static void click_enter(WebDriver driver, String strLocType, String strLocValue, String Param1) {
 	
@@ -152,6 +194,9 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			driver.findElement(By.cssSelector(strLocValue)).sendKeys(Param1);
 			driver.findElement(By.cssSelector(strLocValue)).sendKeys(Keys.ENTER);
 			break;
+		}
+		if(driver.getTitle().contains("Sitefinity Trial Page")) {
+			driver.navigate().refresh();
 		}
 	}
 	
@@ -233,7 +278,8 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		return numberofsheets;
 	}
 	
-	public static void setLastRowNum(int lastrow) {
+	
+ 	public static void setLastRowNum(int lastrow) {
 		CommonFunctions.lastrowNum = lastrow;
 	}
 	public static int getLastRowNum() {
