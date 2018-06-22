@@ -1714,3 +1714,566 @@
 2018-06-22 15:33:57 INFO  Logger:106 - Step 115.0 Step Name: Submit Contact Form
 2018-06-22 15:33:58 INFO  Logger:106 - Step 116.0 Step Name: Verify Contact Form CAFR Submission
 2018-06-22 15:33:58 ERROR Logger:176 - java.lang.AssertionErrorString Location Value: Merci. Nous avons reçu votre demande. Un représentant du service à la clientèle communiquera avec vous d’ici 48 heures. Nous vous remercions de votre intérêt pour Cintas, et serons heureux de discuter avec vous bientôt. Expected Result: Thank You. We have received your request. Please expect a customer service representative to contact you within the next 48 hours. Thank you for your interest in Cintas. We look forward to speaking with you soon.
+2018-06-22 16:03:09 INFO  Logger:22 - Test Scenarios: null
+2018-06-22 16:03:09 INFO  Logger:23 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-22 16:03:09 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:03:15 INFO  Logger:48 - Step 2.0 Step Name: Click Contact Us
+2018-06-22 16:03:31 INFO  Logger:48 - Step 3.0 Step Name: Clear First Name
+2018-06-22 16:06:29 INFO  Logger:22 - Test Scenarios: ContactUs
+2018-06-22 16:06:29 INFO  Logger:23 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-22 16:06:29 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:06:33 INFO  Logger:48 - Step 2.0 Step Name: Click Contact Us
+2018-06-22 16:06:34 INFO  Logger:48 - Step 3.0 Step Name: Clear First Name
+2018-06-22 16:06:34 INFO  Logger:48 - Step 4.0 Step Name: Clear Last Name
+2018-06-22 16:06:35 INFO  Logger:48 - Step 5.0 Step Name: Clear Company
+2018-06-22 16:06:36 INFO  Logger:48 - Step 6.0 Step Name: Insert Comment
+2018-06-22 16:06:36 INFO  Logger:48 - Step 7.0 Step Name: Insert Address
+2018-06-22 16:06:37 INFO  Logger:48 - Step 8.0 Step Name: Insert Postal Code
+2018-06-22 16:06:37 INFO  Logger:48 - Step 9.0 Step Name: Insert Phone Number
+2018-06-22 16:06:38 INFO  Logger:48 - Step 10.0 Step Name: Insert Email Address
+2018-06-22 16:06:38 INFO  Logger:48 - Step 11.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:06:39 INFO  Logger:48 - Step 12.0 Step Name: Insert First Name
+2018-06-22 16:06:39 INFO  Logger:48 - Step 13.0 Step Name: Insert Last Name
+2018-06-22 16:06:40 INFO  Logger:48 - Step 14.0 Step Name: Insert Company
+2018-06-22 16:06:40 INFO  Logger:48 - Step 15.0 Step Name: Insert Comment
+2018-06-22 16:06:41 INFO  Logger:48 - Step 16.0 Step Name: Insert Address
+2018-06-22 16:06:42 INFO  Logger:48 - Step 17.0 Step Name: Insert Postal Code
+2018-06-22 16:06:42 INFO  Logger:48 - Step 18.0 Step Name: Insert Phone Number
+2018-06-22 16:06:43 INFO  Logger:48 - Step 19.0 Step Name: Insert Email Address
+2018-06-22 16:06:43 INFO  Logger:48 - Step 20.0 Step Name: Submit Contact Form
+2018-06-22 16:06:44 INFO  Logger:48 - Step 21.0 Step Name: Verify Contact Form CAFR Submission
+2018-06-22 16:06:44 INFO  Logger:65 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-06-22 16:06:44 INFO  Logger:44 - Test Case: Contact Us
+2018-06-22 16:06:44 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:06:44 INFO  Logger:48 - Step 22.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:06:52 INFO  Logger:48 - Step 23.0 Step Name: Click Contact Us
+2018-06-22 16:06:53 INFO  Logger:48 - Step 24.0 Step Name: Clear First Name
+2018-06-22 16:06:53 INFO  Logger:48 - Step 25.0 Step Name: Clear Last Name
+2018-06-22 16:06:54 INFO  Logger:48 - Step 26.0 Step Name: Clear Company
+2018-06-22 16:06:54 INFO  Logger:48 - Step 27.0 Step Name: Insert Comment
+2018-06-22 16:06:55 INFO  Logger:48 - Step 28.0 Step Name: Insert Address
+2018-06-22 16:06:55 INFO  Logger:48 - Step 29.0 Step Name: Insert Postal Code
+2018-06-22 16:06:56 INFO  Logger:48 - Step 30.0 Step Name: Insert Phone Number
+2018-06-22 16:06:56 INFO  Logger:48 - Step 31.0 Step Name: Insert Email Address
+2018-06-22 16:06:57 INFO  Logger:48 - Step 32.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:06:58 INFO  Logger:48 - Step 33.0 Step Name: Insert First Name
+2018-06-22 16:06:58 INFO  Logger:48 - Step 34.0 Step Name: Insert Last Name
+2018-06-22 16:06:59 INFO  Logger:48 - Step 35.0 Step Name: Insert Company
+2018-06-22 16:06:59 INFO  Logger:48 - Step 36.0 Step Name: Insert Comment
+2018-06-22 16:07:00 INFO  Logger:48 - Step 37.0 Step Name: Insert Address
+2018-06-22 16:07:00 INFO  Logger:48 - Step 38.0 Step Name: Insert Postal Code
+2018-06-22 16:07:01 INFO  Logger:48 - Step 39.0 Step Name: Insert Phone Number
+2018-06-22 16:07:01 INFO  Logger:48 - Step 40.0 Step Name: Insert Email Address
+2018-06-22 16:07:02 INFO  Logger:48 - Step 41.0 Step Name: Submit Contact Form
+2018-06-22 16:07:03 INFO  Logger:48 - Step 42.0 Step Name: Submit Anyway
+2018-06-22 16:07:04 INFO  Logger:48 - Step 43.0 Step Name: Verify Contact Form US Submission
+2018-06-22 16:07:04 INFO  Logger:65 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-06-22 16:07:04 INFO  Logger:44 - Test Case: Contact Us Try Again
+2018-06-22 16:07:04 INFO  Logger:48 - Step 44.0 Step Name: 
+2018-06-22 16:07:04 INFO  Logger:48 - Step 45.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:07:10 INFO  Logger:48 - Step 46.0 Step Name: Click Contact Us
+2018-06-22 16:07:11 INFO  Logger:48 - Step 47.0 Step Name: Clear First Name
+2018-06-22 16:07:11 INFO  Logger:48 - Step 48.0 Step Name: Clear Last Name
+2018-06-22 16:07:12 INFO  Logger:48 - Step 49.0 Step Name: Clear Company
+2018-06-22 16:07:12 INFO  Logger:48 - Step 50.0 Step Name: Insert Comment
+2018-06-22 16:07:13 INFO  Logger:48 - Step 51.0 Step Name: Insert Address
+2018-06-22 16:07:13 INFO  Logger:48 - Step 52.0 Step Name: Insert Postal Code
+2018-06-22 16:07:14 INFO  Logger:48 - Step 53.0 Step Name: Insert Phone Number
+2018-06-22 16:07:14 INFO  Logger:48 - Step 54.0 Step Name: Insert Email Address
+2018-06-22 16:07:15 INFO  Logger:48 - Step 55.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:07:15 INFO  Logger:48 - Step 56.0 Step Name: Insert First Name
+2018-06-22 16:07:16 INFO  Logger:48 - Step 57.0 Step Name: Insert Last Name
+2018-06-22 16:07:17 INFO  Logger:48 - Step 58.0 Step Name: Insert Company
+2018-06-22 16:07:17 INFO  Logger:48 - Step 59.0 Step Name: Insert Comment
+2018-06-22 16:07:18 INFO  Logger:48 - Step 60.0 Step Name: Insert Address
+2018-06-22 16:07:18 INFO  Logger:48 - Step 61.0 Step Name: Insert Postal Code
+2018-06-22 16:07:19 INFO  Logger:48 - Step 62.0 Step Name: Insert Phone Number
+2018-06-22 16:07:19 INFO  Logger:48 - Step 63.0 Step Name: Insert Email Address
+2018-06-22 16:07:20 INFO  Logger:48 - Step 64.0 Step Name: Submit Contact Form
+2018-06-22 16:07:20 INFO  Logger:48 - Step 65.0 Step Name: Submit Anyway
+2018-06-22 16:07:21 INFO  Logger:48 - Step 66.0 Step Name: Insert Address
+2018-06-22 16:07:22 INFO  Logger:48 - Step 67.0 Step Name: Insert Postal Code
+2018-06-22 16:07:22 INFO  Logger:48 - Step 68.0 Step Name: Insert Address
+2018-06-22 16:07:23 INFO  Logger:48 - Step 69.0 Step Name: Insert Postal Code
+2018-06-22 16:07:23 INFO  Logger:48 - Step 70.0 Step Name: Submit Google Address
+2018-06-22 16:07:24 INFO  Logger:48 - Step 71.0 Step Name: Verify Contact Form US Submission Try Again
+2018-06-22 16:07:24 INFO  Logger:65 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-06-22 16:07:24 INFO  Logger:48 - Step 72.0 Step Name: Screenshot_Capture_US_CompletedSubmission
+2018-06-22 16:07:24 INFO  Logger:44 - Test Case: Contact Us CA
+2018-06-22 16:07:24 INFO  Logger:48 - Step 73.0 Step Name: 
+2018-06-22 16:07:24 INFO  Logger:48 - Step 74.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:07:30 INFO  Logger:48 - Step 75.0 Step Name: Click Contact Us
+2018-06-22 16:07:31 INFO  Logger:48 - Step 76.0 Step Name: Clear First Name
+2018-06-22 16:07:32 INFO  Logger:48 - Step 77.0 Step Name: Clear Last Name
+2018-06-22 16:07:32 INFO  Logger:48 - Step 78.0 Step Name: Clear Company
+2018-06-22 16:07:33 INFO  Logger:48 - Step 79.0 Step Name: Insert Comment
+2018-06-22 16:07:33 INFO  Logger:48 - Step 80.0 Step Name: Insert Address
+2018-06-22 16:07:34 INFO  Logger:48 - Step 81.0 Step Name: Insert Postal Code
+2018-06-22 16:07:34 INFO  Logger:48 - Step 82.0 Step Name: Insert Phone Number
+2018-06-22 16:07:35 INFO  Logger:48 - Step 83.0 Step Name: Insert Email Address
+2018-06-22 16:07:35 INFO  Logger:48 - Step 84.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:07:36 INFO  Logger:48 - Step 85.0 Step Name: Insert First Name
+2018-06-22 16:07:37 INFO  Logger:48 - Step 86.0 Step Name: Insert Last Name
+2018-06-22 16:07:37 INFO  Logger:48 - Step 87.0 Step Name: Insert Company
+2018-06-22 16:07:38 INFO  Logger:48 - Step 88.0 Step Name: Insert Comment
+2018-06-22 16:07:38 INFO  Logger:48 - Step 89.0 Step Name: Insert Address
+2018-06-22 16:07:39 INFO  Logger:48 - Step 90.0 Step Name: Insert Postal Code
+2018-06-22 16:07:39 INFO  Logger:48 - Step 91.0 Step Name: Insert Phone Number
+2018-06-22 16:07:40 INFO  Logger:48 - Step 92.0 Step Name: Insert Email Address
+2018-06-22 16:07:40 INFO  Logger:48 - Step 93.0 Step Name: Submit Contact Form
+2018-06-22 16:07:41 INFO  Logger:48 - Step 94.0 Step Name: Verify Contact Form CA Submission
+2018-06-22 16:07:41 INFO  Logger:65 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-06-22 16:07:41 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:07:47 INFO  Logger:48 - Step 2.0 Step Name: Resize Window Mobile
+2018-06-22 16:07:47 INFO  Logger:48 - Step 3.0 Step Name: Click Mobile Menu
+2018-06-22 16:07:48 INFO  Logger:48 - Step 4.0 Step Name: Verify Contact Us
+2018-06-22 16:07:48 INFO  Logger:76 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-06-22 16:07:48 INFO  Logger:48 - Step 5.0 Step Name: Verify Find Location
+2018-06-22 16:07:48 INFO  Logger:76 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-06-22 16:07:48 INFO  Logger:48 - Step 6.0 Step Name: Verify Service Grid
+2018-06-22 16:07:48 INFO  Logger:76 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-06-22 16:07:48 INFO  Logger:48 - Step 7.0 Step Name: Verify Home Grid
+2018-06-22 16:07:48 INFO  Logger:76 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-06-22 16:07:48 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to US Cintas
+2018-06-22 16:07:54 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:07:54 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:07:54 INFO  Logger:44 - Test Case: Verify SSL CA
+2018-06-22 16:07:54 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:07:54 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to CA Cintas
+2018-06-22 16:08:03 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:08:03 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:08:03 INFO  Logger:44 - Test Case: Verify SSL CA/FR
+2018-06-22 16:08:03 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:08:03 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to French CA Cintas
+2018-06-22 16:08:11 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:08:11 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:08:11 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:08:11 INFO  Logger:48 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:08:20 INFO  Logger:48 - Step 2.0 Step Name: Navigate to Find A Location
+2018-06-22 16:08:22 INFO  Logger:48 - Step 3.0 Step Name: Enter valid US Location
+2018-06-22 16:08:22 INFO  Logger:48 - Step 4.0 Step Name: Validate Location Finder Container Displays
+2018-06-22 16:08:22 INFO  Logger:76 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-22 16:08:22 INFO  Logger:48 - Step 5.0 Step Name: Select Filter Header
+2018-06-22 16:08:23 INFO  Logger:48 - Step 6.0 Step Name: Veriy Services Filter Displayed
+2018-06-22 16:08:23 INFO  Logger:76 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-22 16:08:23 INFO  Logger:44 - Test Case: Location Finder CA
+2018-06-22 16:08:23 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:08:23 INFO  Logger:48 - Step 7.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:08:28 INFO  Logger:48 - Step 8.0 Step Name: Navigate to Find A Location
+2018-06-22 16:08:29 INFO  Logger:48 - Step 9.0 Step Name: Enter valid US Location
+2018-06-22 16:08:30 INFO  Logger:48 - Step 10.0 Step Name: Validate Location Finder Container Displays
+2018-06-22 16:08:30 INFO  Logger:76 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-22 16:08:30 INFO  Logger:48 - Step 11.0 Step Name: Select Filter Header
+2018-06-22 16:08:30 INFO  Logger:48 - Step 12.0 Step Name: Veriy Services Filter Displayed
+2018-06-22 16:08:30 INFO  Logger:76 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-22 16:08:30 INFO  Logger:44 - Test Case: Location Finder CA/FR
+2018-06-22 16:08:30 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:08:30 INFO  Logger:48 - Step 13.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:08:36 INFO  Logger:48 - Step 14.0 Step Name: Verify French Location Navigation Matches expected
+2018-06-22 16:08:36 INFO  Logger:65 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-22 16:08:36 INFO  Logger:48 - Step 15.0 Step Name: Navigate to Location Finder
+2018-06-22 16:08:37 INFO  Logger:48 - Step 16.0 Step Name: Verify French Zip Search Container
+2018-06-22 16:08:37 INFO  Logger:65 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-22 16:08:37 INFO  Logger:48 - Step 17.0 Step Name: Enter valid CA Location
+2018-06-22 16:08:37 INFO  Logger:48 - Step 18.0 Step Name: Validate Location Finder Container Displays
+2018-06-22 16:08:37 INFO  Logger:76 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-22 16:08:37 INFO  Logger:48 - Step 19.0 Step Name: Select Filter Header
+2018-06-22 16:08:38 INFO  Logger:48 - Step 20.0 Step Name: Verify Filter Options Displayed
+2018-06-22 16:08:38 INFO  Logger:76 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-06-22 16:08:38 INFO  Logger:48 - Step 21.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:08:43 INFO  Logger:48 - Step 22.0 Step Name: Verify French Location Navigation Matches expected
+2018-06-22 16:16:08 INFO  Logger:22 - Test Scenarios: ContactUs
+2018-06-22 16:16:08 INFO  Logger:23 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-22 16:16:08 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:16:10 INFO  Logger:48 - Step 2.0 Step Name: Click Contact Us
+2018-06-22 16:16:11 INFO  Logger:48 - Step 3.0 Step Name: Clear First Name
+2018-06-22 16:16:12 INFO  Logger:48 - Step 4.0 Step Name: Clear Last Name
+2018-06-22 16:16:12 INFO  Logger:48 - Step 5.0 Step Name: Clear Company
+2018-06-22 16:16:13 INFO  Logger:48 - Step 6.0 Step Name: Insert Comment
+2018-06-22 16:16:13 INFO  Logger:48 - Step 7.0 Step Name: Insert Address
+2018-06-22 16:16:14 INFO  Logger:48 - Step 8.0 Step Name: Insert Postal Code
+2018-06-22 16:16:14 INFO  Logger:48 - Step 9.0 Step Name: Insert Phone Number
+2018-06-22 16:16:15 INFO  Logger:48 - Step 10.0 Step Name: Insert Email Address
+2018-06-22 16:16:15 INFO  Logger:48 - Step 11.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:16:16 INFO  Logger:48 - Step 12.0 Step Name: Insert First Name
+2018-06-22 16:16:17 INFO  Logger:48 - Step 13.0 Step Name: Insert Last Name
+2018-06-22 16:16:17 INFO  Logger:48 - Step 14.0 Step Name: Insert Company
+2018-06-22 16:16:18 INFO  Logger:48 - Step 15.0 Step Name: Insert Comment
+2018-06-22 16:16:18 INFO  Logger:48 - Step 16.0 Step Name: Insert Address
+2018-06-22 16:16:19 INFO  Logger:48 - Step 17.0 Step Name: Insert Postal Code
+2018-06-22 16:16:19 INFO  Logger:48 - Step 18.0 Step Name: Insert Phone Number
+2018-06-22 16:16:20 INFO  Logger:48 - Step 19.0 Step Name: Insert Email Address
+2018-06-22 16:16:21 INFO  Logger:48 - Step 20.0 Step Name: Submit Contact Form
+2018-06-22 16:16:21 INFO  Logger:48 - Step 21.0 Step Name: Verify Contact Form CAFR Submission
+2018-06-22 16:16:21 INFO  Logger:65 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-06-22 16:16:21 INFO  Logger:44 - Test Case: Contact Us
+2018-06-22 16:16:21 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:16:21 INFO  Logger:48 - Step 22.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:16:28 INFO  Logger:48 - Step 23.0 Step Name: Click Contact Us
+2018-06-22 16:16:29 INFO  Logger:48 - Step 24.0 Step Name: Clear First Name
+2018-06-22 16:16:29 INFO  Logger:48 - Step 25.0 Step Name: Clear Last Name
+2018-06-22 16:16:30 INFO  Logger:48 - Step 26.0 Step Name: Clear Company
+2018-06-22 16:16:30 INFO  Logger:48 - Step 27.0 Step Name: Insert Comment
+2018-06-22 16:16:31 INFO  Logger:48 - Step 28.0 Step Name: Insert Address
+2018-06-22 16:16:31 INFO  Logger:48 - Step 29.0 Step Name: Insert Postal Code
+2018-06-22 16:16:32 INFO  Logger:48 - Step 30.0 Step Name: Insert Phone Number
+2018-06-22 16:16:32 INFO  Logger:48 - Step 31.0 Step Name: Insert Email Address
+2018-06-22 16:16:33 INFO  Logger:48 - Step 32.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:16:34 INFO  Logger:48 - Step 33.0 Step Name: Insert First Name
+2018-06-22 16:16:34 INFO  Logger:48 - Step 34.0 Step Name: Insert Last Name
+2018-06-22 16:16:35 INFO  Logger:48 - Step 35.0 Step Name: Insert Company
+2018-06-22 16:16:35 INFO  Logger:48 - Step 36.0 Step Name: Insert Comment
+2018-06-22 16:16:36 INFO  Logger:48 - Step 37.0 Step Name: Insert Address
+2018-06-22 16:16:36 INFO  Logger:48 - Step 38.0 Step Name: Insert Postal Code
+2018-06-22 16:16:37 INFO  Logger:48 - Step 39.0 Step Name: Insert Phone Number
+2018-06-22 16:16:37 INFO  Logger:48 - Step 40.0 Step Name: Insert Email Address
+2018-06-22 16:16:38 INFO  Logger:48 - Step 41.0 Step Name: Submit Contact Form
+2018-06-22 16:16:39 INFO  Logger:48 - Step 42.0 Step Name: Submit Anyway
+2018-06-22 16:16:39 INFO  Logger:48 - Step 43.0 Step Name: Verify Contact Form US Submission
+2018-06-22 16:16:39 INFO  Logger:65 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-06-22 16:16:39 INFO  Logger:44 - Test Case: Contact Us Try Again
+2018-06-22 16:16:39 INFO  Logger:48 - Step 44.0 Step Name: 
+2018-06-22 16:16:39 INFO  Logger:48 - Step 45.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:16:45 INFO  Logger:48 - Step 46.0 Step Name: Click Contact Us
+2018-06-22 16:16:46 INFO  Logger:48 - Step 47.0 Step Name: Clear First Name
+2018-06-22 16:16:47 INFO  Logger:48 - Step 48.0 Step Name: Clear Last Name
+2018-06-22 16:16:47 INFO  Logger:48 - Step 49.0 Step Name: Clear Company
+2018-06-22 16:16:48 INFO  Logger:48 - Step 50.0 Step Name: Insert Comment
+2018-06-22 16:16:48 INFO  Logger:48 - Step 51.0 Step Name: Insert Address
+2018-06-22 16:16:49 INFO  Logger:48 - Step 52.0 Step Name: Insert Postal Code
+2018-06-22 16:16:49 INFO  Logger:48 - Step 53.0 Step Name: Insert Phone Number
+2018-06-22 16:16:50 INFO  Logger:48 - Step 54.0 Step Name: Insert Email Address
+2018-06-22 16:16:50 INFO  Logger:48 - Step 55.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:16:51 INFO  Logger:48 - Step 56.0 Step Name: Insert First Name
+2018-06-22 16:16:52 INFO  Logger:48 - Step 57.0 Step Name: Insert Last Name
+2018-06-22 16:16:52 INFO  Logger:48 - Step 58.0 Step Name: Insert Company
+2018-06-22 16:16:53 INFO  Logger:48 - Step 59.0 Step Name: Insert Comment
+2018-06-22 16:16:53 INFO  Logger:48 - Step 60.0 Step Name: Insert Address
+2018-06-22 16:16:54 INFO  Logger:48 - Step 61.0 Step Name: Insert Postal Code
+2018-06-22 16:16:54 INFO  Logger:48 - Step 62.0 Step Name: Insert Phone Number
+2018-06-22 16:16:55 INFO  Logger:48 - Step 63.0 Step Name: Insert Email Address
+2018-06-22 16:16:55 INFO  Logger:48 - Step 64.0 Step Name: Submit Contact Form
+2018-06-22 16:16:56 INFO  Logger:48 - Step 65.0 Step Name: Submit Anyway
+2018-06-22 16:16:57 INFO  Logger:48 - Step 66.0 Step Name: Insert Address
+2018-06-22 16:16:57 INFO  Logger:48 - Step 67.0 Step Name: Insert Postal Code
+2018-06-22 16:16:58 INFO  Logger:48 - Step 68.0 Step Name: Insert Address
+2018-06-22 16:16:58 INFO  Logger:48 - Step 69.0 Step Name: Insert Postal Code
+2018-06-22 16:16:59 INFO  Logger:48 - Step 70.0 Step Name: Submit Google Address
+2018-06-22 16:17:00 INFO  Logger:48 - Step 71.0 Step Name: Verify Contact Form US Submission Try Again
+2018-06-22 16:17:00 INFO  Logger:65 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-06-22 16:17:00 INFO  Logger:48 - Step 72.0 Step Name: Screenshot_Capture_US_CompletedSubmission
+2018-06-22 16:17:00 INFO  Logger:44 - Test Case: Contact Us CA
+2018-06-22 16:17:00 INFO  Logger:48 - Step 73.0 Step Name: 
+2018-06-22 16:17:00 INFO  Logger:48 - Step 74.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:17:06 INFO  Logger:48 - Step 75.0 Step Name: Click Contact Us
+2018-06-22 16:17:07 INFO  Logger:48 - Step 76.0 Step Name: Clear First Name
+2018-06-22 16:17:07 INFO  Logger:48 - Step 77.0 Step Name: Clear Last Name
+2018-06-22 16:17:08 INFO  Logger:48 - Step 78.0 Step Name: Clear Company
+2018-06-22 16:17:08 INFO  Logger:48 - Step 79.0 Step Name: Insert Comment
+2018-06-22 16:17:09 INFO  Logger:48 - Step 80.0 Step Name: Insert Address
+2018-06-22 16:17:09 INFO  Logger:48 - Step 81.0 Step Name: Insert Postal Code
+2018-06-22 16:17:10 INFO  Logger:48 - Step 82.0 Step Name: Insert Phone Number
+2018-06-22 16:17:10 INFO  Logger:48 - Step 83.0 Step Name: Insert Email Address
+2018-06-22 16:17:11 INFO  Logger:48 - Step 84.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:17:11 INFO  Logger:48 - Step 85.0 Step Name: Insert First Name
+2018-06-22 16:17:12 INFO  Logger:48 - Step 86.0 Step Name: Insert Last Name
+2018-06-22 16:17:12 INFO  Logger:48 - Step 87.0 Step Name: Insert Company
+2018-06-22 16:17:13 INFO  Logger:48 - Step 88.0 Step Name: Insert Comment
+2018-06-22 16:17:14 INFO  Logger:48 - Step 89.0 Step Name: Insert Address
+2018-06-22 16:17:14 INFO  Logger:48 - Step 90.0 Step Name: Insert Postal Code
+2018-06-22 16:17:15 INFO  Logger:48 - Step 91.0 Step Name: Insert Phone Number
+2018-06-22 16:17:15 INFO  Logger:48 - Step 92.0 Step Name: Insert Email Address
+2018-06-22 16:17:16 INFO  Logger:48 - Step 93.0 Step Name: Submit Contact Form
+2018-06-22 16:17:16 INFO  Logger:48 - Step 94.0 Step Name: Verify Contact Form CA Submission
+2018-06-22 16:17:16 INFO  Logger:65 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-06-22 16:17:17 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:17:22 INFO  Logger:48 - Step 2.0 Step Name: Resize Window Mobile
+2018-06-22 16:17:23 INFO  Logger:48 - Step 3.0 Step Name: Click Mobile Menu
+2018-06-22 16:17:23 INFO  Logger:48 - Step 4.0 Step Name: Verify Contact Us
+2018-06-22 16:17:23 INFO  Logger:76 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-06-22 16:17:23 INFO  Logger:48 - Step 5.0 Step Name: Verify Find Location
+2018-06-22 16:17:23 INFO  Logger:76 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-06-22 16:17:23 INFO  Logger:48 - Step 6.0 Step Name: Verify Service Grid
+2018-06-22 16:17:24 INFO  Logger:76 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-06-22 16:17:24 INFO  Logger:48 - Step 7.0 Step Name: Verify Home Grid
+2018-06-22 16:17:24 INFO  Logger:76 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-06-22 16:17:24 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to US Cintas
+2018-06-22 16:17:28 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:17:28 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:17:28 INFO  Logger:44 - Test Case: Verify SSL CA
+2018-06-22 16:17:28 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:17:28 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to CA Cintas
+2018-06-22 16:17:38 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:17:38 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:17:38 INFO  Logger:44 - Test Case: Verify SSL CA/FR
+2018-06-22 16:17:38 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:17:38 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to French CA Cintas
+2018-06-22 16:17:47 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:17:47 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:17:47 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:17:47 INFO  Logger:48 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:17:54 INFO  Logger:48 - Step 2.0 Step Name: Navigate to Find A Location
+2018-06-22 16:17:56 INFO  Logger:48 - Step 3.0 Step Name: Enter valid US Location
+2018-06-22 16:17:56 INFO  Logger:48 - Step 4.0 Step Name: Validate Location Finder Container Displays
+2018-06-22 16:17:56 INFO  Logger:76 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-22 16:17:56 INFO  Logger:48 - Step 5.0 Step Name: Select Filter Header
+2018-06-22 16:17:56 INFO  Logger:48 - Step 6.0 Step Name: Veriy Services Filter Displayed
+2018-06-22 16:17:56 INFO  Logger:76 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-22 16:17:56 INFO  Logger:44 - Test Case: Location Finder CA
+2018-06-22 16:17:56 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:17:56 INFO  Logger:48 - Step 7.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:18:02 INFO  Logger:48 - Step 8.0 Step Name: Navigate to Find A Location
+2018-06-22 16:18:03 INFO  Logger:48 - Step 9.0 Step Name: Enter valid US Location
+2018-06-22 16:18:03 INFO  Logger:48 - Step 10.0 Step Name: Validate Location Finder Container Displays
+2018-06-22 16:18:03 INFO  Logger:76 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-22 16:18:03 INFO  Logger:48 - Step 11.0 Step Name: Select Filter Header
+2018-06-22 16:18:04 INFO  Logger:48 - Step 12.0 Step Name: Veriy Services Filter Displayed
+2018-06-22 16:18:04 INFO  Logger:76 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-22 16:18:04 INFO  Logger:44 - Test Case: Location Finder CA/FR
+2018-06-22 16:18:04 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:18:04 INFO  Logger:48 - Step 13.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:18:09 INFO  Logger:48 - Step 14.0 Step Name: Verify French Location Navigation Matches expected
+2018-06-22 16:18:10 INFO  Logger:65 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-22 16:18:10 INFO  Logger:48 - Step 15.0 Step Name: Navigate to Location Finder
+2018-06-22 16:18:11 INFO  Logger:48 - Step 16.0 Step Name: Verify French Zip Search Container
+2018-06-22 16:18:11 INFO  Logger:65 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-22 16:18:11 INFO  Logger:48 - Step 17.0 Step Name: Enter valid CA Location
+2018-06-22 16:18:11 INFO  Logger:48 - Step 18.0 Step Name: Validate Location Finder Container Displays
+2018-06-22 16:18:11 INFO  Logger:76 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-22 16:18:11 INFO  Logger:48 - Step 19.0 Step Name: Select Filter Header
+2018-06-22 16:18:11 INFO  Logger:48 - Step 20.0 Step Name: Verify Filter Options Displayed
+2018-06-22 16:18:11 INFO  Logger:76 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-06-22 16:18:11 INFO  Logger:48 - Step 21.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:18:17 INFO  Logger:48 - Step 22.0 Step Name: Verify French Location Navigation Matches expected
+2018-06-22 16:18:17 INFO  Logger:65 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-22 16:18:17 INFO  Logger:44 - Test Case: Location Finder Invalid CA
+2018-06-22 16:18:17 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:18:17 INFO  Logger:48 - Step 23.0 Step Name: Navigate to Location Finder
+2018-06-22 16:18:17 INFO  Logger:48 - Step 24.0 Step Name: Verify French Zip Search Container
+2018-06-22 16:18:21 INFO  Logger:65 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-22 16:18:21 INFO  Logger:48 - Step 25.0 Step Name: Enter an Invalid CA Location
+2018-06-22 16:18:21 INFO  Logger:48 - Step 27.0 Step Name: Select Filter Header
+2018-06-22 16:18:22 INFO  Logger:48 - Step 28.0 Step Name: Verify Filter Options Displayed
+2018-06-22 16:18:22 INFO  Logger:76 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-06-22 16:18:22 INFO  Logger:48 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:18:28 INFO  Logger:48 - Step 2.0 Step Name: Search
+2018-06-22 16:18:28 INFO  Logger:48 - Step 3.0 Step Name: Verify Search Results Available
+2018-06-22 16:18:31 INFO  Logger:76 - Step No. 3.0 Step Name Verify Search Results Available Result: Pass
+2018-06-22 16:18:31 INFO  Logger:44 - Test Case: CA Search
+2018-06-22 16:18:31 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:18:31 INFO  Logger:48 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:20:33 INFO  Logger:22 - Test Scenarios: ContactUs
+2018-06-22 16:20:33 INFO  Logger:23 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-22 16:20:33 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:20:36 INFO  Logger:48 - Step 2.0 Step Name: Click Contact Us
+2018-06-22 16:20:37 INFO  Logger:48 - Step 3.0 Step Name: Clear First Name
+2018-06-22 16:20:38 INFO  Logger:48 - Step 4.0 Step Name: Clear Last Name
+2018-06-22 16:20:38 INFO  Logger:48 - Step 5.0 Step Name: Clear Company
+2018-06-22 16:20:39 INFO  Logger:48 - Step 6.0 Step Name: Insert Comment
+2018-06-22 16:20:39 INFO  Logger:48 - Step 7.0 Step Name: Insert Address
+2018-06-22 16:20:40 INFO  Logger:48 - Step 8.0 Step Name: Insert Postal Code
+2018-06-22 16:20:40 INFO  Logger:48 - Step 9.0 Step Name: Insert Phone Number
+2018-06-22 16:20:41 INFO  Logger:48 - Step 10.0 Step Name: Insert Email Address
+2018-06-22 16:20:41 INFO  Logger:48 - Step 11.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:20:42 INFO  Logger:48 - Step 12.0 Step Name: Insert First Name
+2018-06-22 16:20:43 INFO  Logger:48 - Step 13.0 Step Name: Insert Last Name
+2018-06-22 16:20:43 INFO  Logger:48 - Step 14.0 Step Name: Insert Company
+2018-06-22 16:20:44 INFO  Logger:48 - Step 15.0 Step Name: Insert Comment
+2018-06-22 16:20:44 INFO  Logger:48 - Step 16.0 Step Name: Insert Address
+2018-06-22 16:20:45 INFO  Logger:48 - Step 17.0 Step Name: Insert Postal Code
+2018-06-22 16:20:45 INFO  Logger:48 - Step 18.0 Step Name: Insert Phone Number
+2018-06-22 16:20:46 INFO  Logger:48 - Step 19.0 Step Name: Insert Email Address
+2018-06-22 16:20:46 INFO  Logger:48 - Step 20.0 Step Name: Submit Contact Form
+2018-06-22 16:20:47 INFO  Logger:48 - Step 21.0 Step Name: Verify Contact Form CAFR Submission
+2018-06-22 16:20:47 INFO  Logger:65 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-06-22 16:20:47 INFO  Logger:44 - Test Case: Contact Us
+2018-06-22 16:20:47 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:20:47 INFO  Logger:48 - Step 22.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:20:50 INFO  Logger:48 - Step 23.0 Step Name: Click Contact Us
+2018-06-22 16:20:50 INFO  Logger:48 - Step 24.0 Step Name: Clear First Name
+2018-06-22 16:20:51 INFO  Logger:48 - Step 25.0 Step Name: Clear Last Name
+2018-06-22 16:20:52 INFO  Logger:48 - Step 26.0 Step Name: Clear Company
+2018-06-22 16:20:52 INFO  Logger:48 - Step 27.0 Step Name: Insert Comment
+2018-06-22 16:20:53 INFO  Logger:48 - Step 28.0 Step Name: Insert Address
+2018-06-22 16:20:53 INFO  Logger:48 - Step 29.0 Step Name: Insert Postal Code
+2018-06-22 16:20:54 INFO  Logger:48 - Step 30.0 Step Name: Insert Phone Number
+2018-06-22 16:20:54 INFO  Logger:48 - Step 31.0 Step Name: Insert Email Address
+2018-06-22 16:20:55 INFO  Logger:48 - Step 32.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:20:55 INFO  Logger:48 - Step 33.0 Step Name: Insert First Name
+2018-06-22 16:20:56 INFO  Logger:48 - Step 34.0 Step Name: Insert Last Name
+2018-06-22 16:20:57 INFO  Logger:48 - Step 35.0 Step Name: Insert Company
+2018-06-22 16:20:57 INFO  Logger:48 - Step 36.0 Step Name: Insert Comment
+2018-06-22 16:20:58 INFO  Logger:48 - Step 37.0 Step Name: Insert Address
+2018-06-22 16:20:58 INFO  Logger:48 - Step 38.0 Step Name: Insert Postal Code
+2018-06-22 16:20:59 INFO  Logger:48 - Step 39.0 Step Name: Insert Phone Number
+2018-06-22 16:20:59 INFO  Logger:48 - Step 40.0 Step Name: Insert Email Address
+2018-06-22 16:21:00 INFO  Logger:48 - Step 41.0 Step Name: Submit Contact Form
+2018-06-22 16:21:00 INFO  Logger:48 - Step 42.0 Step Name: Submit Anyway
+2018-06-22 16:21:01 INFO  Logger:48 - Step 43.0 Step Name: Verify Contact Form US Submission
+2018-06-22 16:21:01 INFO  Logger:65 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-06-22 16:21:01 INFO  Logger:44 - Test Case: Contact Us Try Again
+2018-06-22 16:21:01 INFO  Logger:48 - Step 44.0 Step Name: 
+2018-06-22 16:21:01 INFO  Logger:48 - Step 45.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:21:03 INFO  Logger:48 - Step 46.0 Step Name: Click Contact Us
+2018-06-22 16:21:04 INFO  Logger:48 - Step 47.0 Step Name: Clear First Name
+2018-06-22 16:21:05 INFO  Logger:48 - Step 48.0 Step Name: Clear Last Name
+2018-06-22 16:21:05 INFO  Logger:48 - Step 49.0 Step Name: Clear Company
+2018-06-22 16:21:06 INFO  Logger:48 - Step 50.0 Step Name: Insert Comment
+2018-06-22 16:21:06 INFO  Logger:48 - Step 51.0 Step Name: Insert Address
+2018-06-22 16:21:07 INFO  Logger:48 - Step 52.0 Step Name: Insert Postal Code
+2018-06-22 16:21:07 INFO  Logger:48 - Step 53.0 Step Name: Insert Phone Number
+2018-06-22 16:21:08 INFO  Logger:48 - Step 54.0 Step Name: Insert Email Address
+2018-06-22 16:21:08 INFO  Logger:48 - Step 55.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:21:09 INFO  Logger:48 - Step 56.0 Step Name: Insert First Name
+2018-06-22 16:21:10 INFO  Logger:48 - Step 57.0 Step Name: Insert Last Name
+2018-06-22 16:21:10 INFO  Logger:48 - Step 58.0 Step Name: Insert Company
+2018-06-22 16:21:11 INFO  Logger:48 - Step 59.0 Step Name: Insert Comment
+2018-06-22 16:21:11 INFO  Logger:48 - Step 60.0 Step Name: Insert Address
+2018-06-22 16:21:12 INFO  Logger:48 - Step 61.0 Step Name: Insert Postal Code
+2018-06-22 16:21:12 INFO  Logger:48 - Step 62.0 Step Name: Insert Phone Number
+2018-06-22 16:21:13 INFO  Logger:48 - Step 63.0 Step Name: Insert Email Address
+2018-06-22 16:21:13 INFO  Logger:48 - Step 64.0 Step Name: Submit Contact Form
+2018-06-22 16:21:14 INFO  Logger:48 - Step 65.0 Step Name: Submit Anyway
+2018-06-22 16:21:15 INFO  Logger:48 - Step 66.0 Step Name: Insert Address
+2018-06-22 16:21:15 INFO  Logger:48 - Step 67.0 Step Name: Insert Postal Code
+2018-06-22 16:21:16 INFO  Logger:48 - Step 68.0 Step Name: Insert Address
+2018-06-22 16:21:16 INFO  Logger:48 - Step 69.0 Step Name: Insert Postal Code
+2018-06-22 16:21:17 INFO  Logger:48 - Step 70.0 Step Name: Submit Google Address
+2018-06-22 16:21:18 INFO  Logger:48 - Step 71.0 Step Name: Verify Contact Form US Submission Try Again
+2018-06-22 16:21:18 INFO  Logger:65 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-06-22 16:21:18 INFO  Logger:48 - Step 72.0 Step Name: Screenshot_Capture_US_CompletedSubmission
+2018-06-22 16:21:18 INFO  Logger:44 - Test Case: Contact Us CA
+2018-06-22 16:21:18 INFO  Logger:48 - Step 73.0 Step Name: 
+2018-06-22 16:21:18 INFO  Logger:48 - Step 74.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:21:20 INFO  Logger:48 - Step 75.0 Step Name: Click Contact Us
+2018-06-22 16:21:21 INFO  Logger:48 - Step 76.0 Step Name: Clear First Name
+2018-06-22 16:21:22 INFO  Logger:48 - Step 77.0 Step Name: Clear Last Name
+2018-06-22 16:21:22 INFO  Logger:48 - Step 78.0 Step Name: Clear Company
+2018-06-22 16:21:23 INFO  Logger:48 - Step 79.0 Step Name: Insert Comment
+2018-06-22 16:21:23 INFO  Logger:48 - Step 80.0 Step Name: Insert Address
+2018-06-22 16:21:24 INFO  Logger:48 - Step 81.0 Step Name: Insert Postal Code
+2018-06-22 16:21:24 INFO  Logger:48 - Step 82.0 Step Name: Insert Phone Number
+2018-06-22 16:21:25 INFO  Logger:48 - Step 83.0 Step Name: Insert Email Address
+2018-06-22 16:21:25 INFO  Logger:48 - Step 84.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:21:26 INFO  Logger:48 - Step 85.0 Step Name: Insert First Name
+2018-06-22 16:21:27 INFO  Logger:48 - Step 86.0 Step Name: Insert Last Name
+2018-06-22 16:21:27 INFO  Logger:48 - Step 87.0 Step Name: Insert Company
+2018-06-22 16:21:28 INFO  Logger:48 - Step 88.0 Step Name: Insert Comment
+2018-06-22 16:21:28 INFO  Logger:48 - Step 89.0 Step Name: Insert Address
+2018-06-22 16:21:29 INFO  Logger:48 - Step 90.0 Step Name: Insert Postal Code
+2018-06-22 16:21:29 INFO  Logger:48 - Step 91.0 Step Name: Insert Phone Number
+2018-06-22 16:21:30 INFO  Logger:48 - Step 92.0 Step Name: Insert Email Address
+2018-06-22 16:21:30 INFO  Logger:48 - Step 93.0 Step Name: Submit Contact Form
+2018-06-22 16:21:31 INFO  Logger:48 - Step 94.0 Step Name: Verify Contact Form CA Submission
+2018-06-22 16:21:31 INFO  Logger:65 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-06-22 16:21:31 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:21:33 INFO  Logger:48 - Step 2.0 Step Name: Resize Window Mobile
+2018-06-22 16:21:34 INFO  Logger:48 - Step 3.0 Step Name: Click Mobile Menu
+2018-06-22 16:21:34 INFO  Logger:48 - Step 4.0 Step Name: Verify Contact Us
+2018-06-22 16:21:34 INFO  Logger:76 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-06-22 16:21:34 INFO  Logger:48 - Step 5.0 Step Name: Verify Find Location
+2018-06-22 16:21:34 INFO  Logger:76 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-06-22 16:21:34 INFO  Logger:48 - Step 6.0 Step Name: Verify Service Grid
+2018-06-22 16:21:35 INFO  Logger:76 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-06-22 16:21:35 INFO  Logger:48 - Step 7.0 Step Name: Verify Home Grid
+2018-06-22 16:21:35 INFO  Logger:76 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-06-22 16:21:35 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to US Cintas
+2018-06-22 16:21:38 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:21:38 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:21:38 INFO  Logger:44 - Test Case: Verify SSL CA
+2018-06-22 16:21:38 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:21:38 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to CA Cintas
+2018-06-22 16:21:45 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:21:45 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:21:45 INFO  Logger:44 - Test Case: Verify SSL CA/FR
+2018-06-22 16:21:45 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:21:45 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to French CA Cintas
+2018-06-22 16:21:49 INFO  Logger:48 - Step 2.0 Step Name: Verify URL
+2018-06-22 16:21:49 INFO  Logger:80 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-06-22 16:21:49 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:21:49 INFO  Logger:48 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-22 16:21:53 INFO  Logger:48 - Step 2.0 Step Name: Navigate to Find A Location
+2018-06-22 16:27:03 INFO  Logger:22 - Test Scenarios: ContactUs
+2018-06-22 16:27:03 INFO  Logger:23 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-22 16:27:03 INFO  Logger:48 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:27:08 INFO  Logger:48 - Step 2.0 Step Name: Click Contact Us
+2018-06-22 16:27:09 INFO  Logger:48 - Step 3.0 Step Name: Clear First Name
+2018-06-22 16:27:10 INFO  Logger:48 - Step 4.0 Step Name: Clear Last Name
+2018-06-22 16:27:10 INFO  Logger:48 - Step 5.0 Step Name: Clear Company
+2018-06-22 16:27:11 INFO  Logger:48 - Step 6.0 Step Name: Insert Comment
+2018-06-22 16:27:11 INFO  Logger:48 - Step 7.0 Step Name: Insert Address
+2018-06-22 16:27:12 INFO  Logger:48 - Step 8.0 Step Name: Insert Postal Code
+2018-06-22 16:27:12 INFO  Logger:48 - Step 9.0 Step Name: Insert Phone Number
+2018-06-22 16:27:13 INFO  Logger:48 - Step 10.0 Step Name: Insert Email Address
+2018-06-22 16:27:13 INFO  Logger:48 - Step 11.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:27:14 INFO  Logger:48 - Step 12.0 Step Name: Insert First Name
+2018-06-22 16:27:15 INFO  Logger:48 - Step 13.0 Step Name: Insert Last Name
+2018-06-22 16:27:15 INFO  Logger:48 - Step 14.0 Step Name: Insert Company
+2018-06-22 16:27:16 INFO  Logger:48 - Step 15.0 Step Name: Insert Comment
+2018-06-22 16:27:16 INFO  Logger:48 - Step 16.0 Step Name: Insert Address
+2018-06-22 16:27:17 INFO  Logger:48 - Step 17.0 Step Name: Insert Postal Code
+2018-06-22 16:27:17 INFO  Logger:48 - Step 18.0 Step Name: Insert Phone Number
+2018-06-22 16:27:18 INFO  Logger:48 - Step 19.0 Step Name: Insert Email Address
+2018-06-22 16:27:18 INFO  Logger:48 - Step 20.0 Step Name: Submit Contact Form
+2018-06-22 16:27:19 INFO  Logger:48 - Step 21.0 Step Name: Verify Contact Form CAFR Submission
+2018-06-22 16:27:19 INFO  Logger:65 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-06-22 16:27:19 INFO  Logger:44 - Test Case: Contact Us
+2018-06-22 16:27:19 INFO  Logger:48 - Step  Step Name: 
+2018-06-22 16:27:19 INFO  Logger:48 - Step 22.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:27:24 INFO  Logger:48 - Step 23.0 Step Name: Click Contact Us
+2018-06-22 16:27:25 INFO  Logger:48 - Step 24.0 Step Name: Clear First Name
+2018-06-22 16:27:26 INFO  Logger:48 - Step 25.0 Step Name: Clear Last Name
+2018-06-22 16:27:26 INFO  Logger:48 - Step 26.0 Step Name: Clear Company
+2018-06-22 16:27:27 INFO  Logger:48 - Step 27.0 Step Name: Insert Comment
+2018-06-22 16:27:27 INFO  Logger:48 - Step 28.0 Step Name: Insert Address
+2018-06-22 16:27:28 INFO  Logger:48 - Step 29.0 Step Name: Insert Postal Code
+2018-06-22 16:27:28 INFO  Logger:48 - Step 30.0 Step Name: Insert Phone Number
+2018-06-22 16:27:29 INFO  Logger:48 - Step 31.0 Step Name: Insert Email Address
+2018-06-22 16:27:29 INFO  Logger:48 - Step 32.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:27:30 INFO  Logger:48 - Step 33.0 Step Name: Insert First Name
+2018-06-22 16:27:31 INFO  Logger:48 - Step 34.0 Step Name: Insert Last Name
+2018-06-22 16:27:31 INFO  Logger:48 - Step 35.0 Step Name: Insert Company
+2018-06-22 16:27:32 INFO  Logger:48 - Step 36.0 Step Name: Insert Comment
+2018-06-22 16:27:32 INFO  Logger:48 - Step 37.0 Step Name: Insert Address
+2018-06-22 16:27:33 INFO  Logger:48 - Step 38.0 Step Name: Insert Postal Code
+2018-06-22 16:27:33 INFO  Logger:48 - Step 39.0 Step Name: Insert Phone Number
+2018-06-22 16:27:34 INFO  Logger:48 - Step 40.0 Step Name: Insert Email Address
+2018-06-22 16:27:34 INFO  Logger:48 - Step 41.0 Step Name: Submit Contact Form
+2018-06-22 16:27:35 INFO  Logger:48 - Step 42.0 Step Name: Submit Anyway
+2018-06-22 16:27:36 INFO  Logger:48 - Step 43.0 Step Name: Verify Contact Form US Submission
+2018-06-22 16:27:36 INFO  Logger:65 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-06-22 16:27:36 INFO  Logger:44 - Test Case: Contact Us Try Again
+2018-06-22 16:27:36 INFO  Logger:48 - Step 44.0 Step Name: 
+2018-06-22 16:27:36 INFO  Logger:48 - Step 45.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:27:40 INFO  Logger:48 - Step 46.0 Step Name: Click Contact Us
+2018-06-22 16:27:41 INFO  Logger:48 - Step 47.0 Step Name: Clear First Name
+2018-06-22 16:27:42 INFO  Logger:48 - Step 48.0 Step Name: Clear Last Name
+2018-06-22 16:27:42 INFO  Logger:48 - Step 49.0 Step Name: Clear Company
+2018-06-22 16:27:43 INFO  Logger:48 - Step 50.0 Step Name: Insert Comment
+2018-06-22 16:27:43 INFO  Logger:48 - Step 51.0 Step Name: Insert Address
+2018-06-22 16:27:44 INFO  Logger:48 - Step 52.0 Step Name: Insert Postal Code
+2018-06-22 16:27:44 INFO  Logger:48 - Step 53.0 Step Name: Insert Phone Number
+2018-06-22 16:27:45 INFO  Logger:48 - Step 54.0 Step Name: Insert Email Address
+2018-06-22 16:27:45 INFO  Logger:48 - Step 55.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-22 16:27:46 INFO  Logger:48 - Step 56.0 Step Name: Insert First Name
+2018-06-22 16:27:46 INFO  Logger:48 - Step 57.0 Step Name: Insert Last Name
+2018-06-22 16:27:47 INFO  Logger:48 - Step 58.0 Step Name: Insert Company
+2018-06-22 16:27:48 INFO  Logger:48 - Step 59.0 Step Name: Insert Comment
+2018-06-22 16:27:48 INFO  Logger:48 - Step 60.0 Step Name: Insert Address
+2018-06-22 16:27:49 INFO  Logger:48 - Step 61.0 Step Name: Insert Postal Code
+2018-06-22 16:27:49 INFO  Logger:48 - Step 62.0 Step Name: Insert Phone Number
+2018-06-22 16:27:50 INFO  Logger:48 - Step 63.0 Step Name: Insert Email Address
+2018-06-22 16:27:50 INFO  Logger:48 - Step 64.0 Step Name: Submit Contact Form
+2018-06-22 16:27:51 INFO  Logger:48 - Step 65.0 Step Name: Submit Anyway
+2018-06-22 16:27:52 INFO  Logger:48 - Step 66.0 Step Name: Insert Address
+2018-06-22 16:27:52 INFO  Logger:48 - Step 67.0 Step Name: Insert Postal Code
+2018-06-22 16:27:53 INFO  Logger:48 - Step 68.0 Step Name: Insert Address
+2018-06-22 16:27:53 INFO  Logger:48 - Step 69.0 Step Name: Insert Postal Code
+2018-06-22 16:27:54 INFO  Logger:48 - Step 70.0 Step Name: Submit Google Address
+2018-06-22 16:27:55 INFO  Logger:48 - Step 71.0 Step Name: Verify Contact Form US Submission Try Again
+2018-06-22 16:27:55 INFO  Logger:65 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-06-22 16:27:55 INFO  Logger:48 - Step 72.0 Step Name: Screenshot_Capture_US_CompletedSubmission
+2018-06-22 16:27:55 INFO  Logger:44 - Test Case: Contact Us CA
+2018-06-22 16:27:55 INFO  Logger:48 - Step 73.0 Step Name: 
+2018-06-22 16:27:55 INFO  Logger:48 - Step 74.0 Step Name: Open Firefox and go to URL
+2018-06-22 16:27:58 INFO  Logger:48 - Step 75.0 Step Name: Click Contact Us

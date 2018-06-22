@@ -28,19 +28,13 @@ import org.openqa.selenium.WebDriver;
 public class CommonFunctions extends AbstractPageStepDefinitions{
 	private static int lastrowNum;
 	private static String SheetName;
+
 	static Logger log = Logger.getLogger(Logger.class.getName());
 	
 	public static void navigate_to(WebDriver driver, String url) {
-		driver.manage().deleteAllCookies();
-		driver.navigate().refresh();
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		
-		
+
 		driver.navigate().to(url);
-		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-		//System.out.println("URL IS AS FOLLOWS!!! " + url);
+		driver.manage().window().maximize();
 		
 	}
 	public static void send_element(WebDriver driver, String strLocType, String strLocValue, String Param1) {
@@ -269,15 +263,19 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 	}
 	public static int NumberofSheets(String path) throws IOException{
 		int numberofsheets;
+		String initialSheetname;
+	
 		File excel= new File(path);
 		FileInputStream fis= new FileInputStream(excel);
 		HSSFWorkbook wb= new HSSFWorkbook(fis);
 		numberofsheets = wb.getNumberOfSheets();
+		//Setting the first Sheet to be completed throughout for remaining sheets via FetchDataFromExcel method
+		initialSheetname = wb.getSheetName(0);
+		setSheetName(initialSheetname);
 		wb.close();
 		fis.close();
 		return numberofsheets;
 	}
-	
 	
  	public static void setLastRowNum(int lastrow) {
 		CommonFunctions.lastrowNum = lastrow;
