@@ -1,12 +1,15 @@
 package step_definitions;
 import java.io.IOException;
 
+import org.apache.commons.io.FilenameUtils;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
+import step_definitions.excel.excelRead;
+
 public class KeywordFramework extends CommonFunctions {
 	static int last_row;
-	private static String KeywordPath;
+	private static String keywordPath;
 	private static String sheetName;
 	static String test_case;
 	private static String[][] data;
@@ -16,31 +19,34 @@ public class KeywordFramework extends CommonFunctions {
 		
 		//In the process of changing to use constructor to identify different objects.
 		//Going through all Test Case Documents
+		// Singlepath field not null then can be set immediately
 		
-		
+		keywordPath = identify.singlepath.toString();
+	
 		//Full Regression
 		if(identify.singlepath == null && identify.numberofsheets == true)
 		{
 			for(int k = 0; k < identify.path.length;k++) {
-				KeywordPath = identify.path[k].toString();
-				
-				int numberofsheets = NumberofSheets(KeywordPath);
-				log.info("Test Scenarios: " + getSheetName());
-				log.info("Test File Location " + KeywordPath);
-				sendExcelSheets(driver, numberofsheets, null);
+				keywordPath = identify.path[k].toString();
+
+					int numberofsheets = excelRead.xlsxNumberofSheets(keywordPath);
+					log.info("Test Scenarios: " + excelRead.getSheetName());
+					log.info("Test File Location " + keywordPath);
+					sendExcelSheets(driver, numberofsheets, null);
 			}
+				
 		}
 		//Single KeywordPath and Multiple Sheets
 		else if(identify.singlepath != null && identify.numberofsheets == true) {
-			KeywordPath = identify.singlepath.toString();
-			int numberofsheets = NumberofSheets(KeywordPath);
-			log.info("Test Scenarios: " + getSheetName());
-			log.info("Test File Location " + KeywordPath);
+			keywordPath = identify.singlepath.toString();
+			int numberofsheets = excelRead.xlsxNumberofSheets(keywordPath);
+			log.info("Test Scenarios: " + excelRead.getSheetName());
+			log.info("Test File Location " + keywordPath);
 			sendExcelSheets(driver, numberofsheets, null);
 		}
 		//Single KeywordPath and Single Sheet
 		else if(identify.singlepath != null && identify.sheetname !=null) {
-			KeywordPath = identify.singlepath.toString();
+			keywordPath = identify.singlepath.toString();
 			sheetName = identify.sheetname.toString();
 			sendExcelSheets(driver, 0, sheetName);
 			
@@ -51,17 +57,19 @@ public class KeywordFramework extends CommonFunctions {
 			Assert.fail();
 		}
 	}	
+	
+	//Send Excel Sheets to be processed
 	public static void sendExcelSheets(WebDriver driver, int numberofsheets, String sheetName) throws IOException {
-		if(sheetName != null) {
-			data = fetchExcelBySheetName(KeywordPath, sheetName);
-			sendToMethod(driver, data);
-		}
+		if(sheetName != null) {				
+				data = excelRead.xlsxfetchExcelBySheetName(keywordPath, sheetName);
+				sendToMethod(driver, data);
+			}
 		else {
 			do {
 				
 				for(int j = 0; j<numberofsheets;j++) {
 					
-					data = fetchDataFromExcelSheetNumber(KeywordPath, j);
+					data = excelRead.xlsxfetchDataFromExcelSheetNumber(keywordPath, j);
 					sendToMethod(driver, data);
 				}	
 			}while(!driver.getTitle().contains("Sitefinity Trial Page"));
@@ -72,7 +80,7 @@ public class KeywordFramework extends CommonFunctions {
 	}
 	
 	public static void sendToMethod(WebDriver driver, String data[][]) throws IOException {
-		last_row = getLastRowNum();
+		last_row = excelRead.getLastRowNum();
 		
 		for(int i = 2; i <last_row; i++) {
 			if(data[i][0] != "") {

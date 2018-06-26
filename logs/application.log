@@ -2817,3 +2817,20 @@
 2018-06-25 16:59:18 INFO  Logger:83 - Step 93.0 Step Name: Submit Contact Form
 2018-06-25 16:59:18 INFO  Logger:83 - Step 94.0 Step Name: Verify Contact Form CA Submission
 2018-06-25 16:59:18 ERROR Logger:170 - java.lang.AssertionErrorString Location Value: Merci. Nous avons reçu votre demande. Un représentant du service à la clientèle communiquera avec vous d’ici 48 heures. Nous vous remercions de votre intérêt pour Cintas, et serons heureux de discuter avec vous bientôt. Expected Result: Thank You. We have received your request. Please expect a customer service representative to contact you within the next 48 hours. Thank you for your interest in Cintas. We look forward to speaking with you soon.
+2018-06-26 09:25:45 INFO  Logger:37 - Test Scenarios: ContactUs
+2018-06-26 09:25:45 INFO  Logger:38 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-26 09:25:45 INFO  Logger:85 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-26 09:40:54 INFO  Logger:39 - Test Scenarios: ContactUs
+2018-06-26 09:40:54 INFO  Logger:40 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls
+2018-06-26 09:40:54 INFO  Logger:87 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-26 09:41:03 INFO  Logger:87 - Step 2.0 Step Name: Click Contact Us
+2018-06-26 09:41:03 INFO  Logger:87 - Step 3.0 Step Name: Clear First Name
+2018-06-26 09:41:04 INFO  Logger:87 - Step 4.0 Step Name: Clear Last Name
+2018-06-26 09:41:05 INFO  Logger:87 - Step 5.0 Step Name: Clear Company
+2018-06-26 09:41:05 INFO  Logger:87 - Step 6.0 Step Name: Insert Comment
+2018-06-26 09:41:06 INFO  Logger:87 - Step 7.0 Step Name: Insert Address
+2018-06-26 09:41:06 INFO  Logger:87 - Step 8.0 Step Name: Insert Postal Code
+2018-06-26 09:41:07 INFO  Logger:87 - Step 9.0 Step Name: Insert Phone Number
+2018-06-26 09:41:07 INFO  Logger:87 - Step 10.0 Step Name: Insert Email Address
+2018-06-26 10:19:35 ERROR Logger:70 - EXTENSION DIDN'T WORK
+2018-06-26 10:46:11 ERROR Logger:87 - DIDN'T MAKE IT IN PROPERLY

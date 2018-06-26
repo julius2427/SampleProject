@@ -73,7 +73,7 @@ public class AppTest extends AbstractPageStepDefinitions
 @Test
 	public void singlePathsingleSheet() throws Exception{
 	//Manually setting the path to workbook you want here
-	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls";
+	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx";
 	String sheetname = "Location Finder";
 	ExcelTestCaseSelector testcase = new ExcelTestCaseSelector(singlepath, sheetname);
 	KeywordFramework.main(driver, testcase);
@@ -81,7 +81,7 @@ public class AppTest extends AbstractPageStepDefinitions
 
 @Test
 	public void singlePathMultipleSheet() throws Exception{
-	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls";
+	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx";
 	ExcelTestCaseSelector testcase = new ExcelTestCaseSelector(singlepath);
 	KeywordFramework.main(driver, testcase);
 }
