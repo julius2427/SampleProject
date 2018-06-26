@@ -1,42 +1,77 @@
 package step_definitions;
 import java.io.IOException;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class KeywordFramework extends CommonFunctions {
 	static int last_row;
 	private static String KeywordPath;
+	private static String sheetName;
 	static String test_case;
+	private static String[][] data;
 	
-	public static void main(WebDriver driver, String[] path) throws IOException, InterruptedException {
-
-//		String KeywordPath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/TestCases/KeywordDrivenFramework.xls";
+	public static void main(WebDriver driver, ExcelTestCaseSelector identify) throws IOException, InterruptedException {
 
 		
-
+		//In the process of changing to use constructor to identify different objects.
 		//Going through all Test Case Documents
-		for(int k = 0; k < path.length;k++) {
-			KeywordPath = path[k].toString();
-			
+		
+		
+		//Full Regression
+		if(identify.singlepath == null && identify.numberofsheets == true)
+		{
+			for(int k = 0; k < identify.path.length;k++) {
+				KeywordPath = identify.path[k].toString();
+				
+				int numberofsheets = NumberofSheets(KeywordPath);
+				log.info("Test Scenarios: " + getSheetName());
+				log.info("Test File Location " + KeywordPath);
+				sendExcelSheets(driver, numberofsheets, null);
+			}
+		}
+		//Single KeywordPath and Multiple Sheets
+		else if(identify.singlepath != null && identify.numberofsheets == true) {
+			KeywordPath = identify.singlepath.toString();
 			int numberofsheets = NumberofSheets(KeywordPath);
 			log.info("Test Scenarios: " + getSheetName());
 			log.info("Test File Location " + KeywordPath);
+			sendExcelSheets(driver, numberofsheets, null);
+		}
+		//Single KeywordPath and Single Sheet
+		else if(identify.singlepath != null && identify.sheetname !=null) {
+			KeywordPath = identify.singlepath.toString();
+			sheetName = identify.sheetname.toString();
+			sendExcelSheets(driver, 0, sheetName);
 			
-			//Going through all 
+			
+		}
+		else {
+			log.info("ERROR FOUND Matching Options available");
+			Assert.fail();
+		}
+	}	
+	public static void sendExcelSheets(WebDriver driver, int numberofsheets, String sheetName) throws IOException {
+		if(sheetName != null) {
+			data = fetchExcelBySheetName(KeywordPath, sheetName);
+			sendToMethod(driver, data);
+		}
+		else {
 			do {
 				
-			for(int j = 0; j<numberofsheets;j++) {
-				
-				String data[][] = FetchDataFromExcel(KeywordPath, j);
-				SendToMethod(driver, data);
-					}
+				for(int j = 0; j<numberofsheets;j++) {
+					
+					data = fetchDataFromExcelSheetNumber(KeywordPath, j);
+					sendToMethod(driver, data);
+				}	
 			}while(!driver.getTitle().contains("Sitefinity Trial Page"));
 			driver.navigate().refresh();
-			main(driver, path);
-		}
+			log.error("SITEFINITY TRIAL PAGE ERROR");
+
+		}		
 	}
 	
-	public static void SendToMethod(WebDriver driver, String data[][]) throws IOException {
+	public static void sendToMethod(WebDriver driver, String data[][]) throws IOException {
 		last_row = getLastRowNum();
 		
 		for(int i = 2; i <last_row; i++) {
@@ -86,9 +121,8 @@ public class KeywordFramework extends CommonFunctions {
 				break;
 			}
 			
-		}
-
-		
-		
+		}			
 	}
+		
 }
+

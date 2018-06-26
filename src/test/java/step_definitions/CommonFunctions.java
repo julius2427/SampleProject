@@ -194,7 +194,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		}
 	}
 	
-	public static String[][] FetchDataFromExcel(String path, int sheetNumber) throws IOException
+	public static String[][] fetchDataFromExcelSheetNumber(String path, int sheetNumber) throws IOException
 	{
 
 		//Change File name as per file location on machine
@@ -202,7 +202,10 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 				File excel= new File(path);
 				FileInputStream fis= new FileInputStream(excel);
 				HSSFWorkbook wb= new HSSFWorkbook(fis);
+				
 				HSSFSheet ws= wb.getSheetAt(sheetNumber);
+				//HSSFSheet ws = wb.getSheet(sheetName);
+				
 				
 				int rowNum=ws.getLastRowNum()+1;
 				setLastRowNum(rowNum);
@@ -234,6 +237,50 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		return data;
 		
 	}
+	//might not be the cleanest but was able to separate them
+	public static String[][] fetchExcelBySheetName(String path, String sheetname) throws IOException
+	{
+
+		//Change File name as per file location on machine
+//				File excel= new File("F:\\Nilesh Selenium 14th May\\Data.xls");
+				File excel= new File(path);
+				FileInputStream fis= new FileInputStream(excel);
+				HSSFWorkbook wb= new HSSFWorkbook(fis);
+				
+				HSSFSheet ws = wb.getSheet(sheetname);
+				
+				
+				int rowNum=ws.getLastRowNum()+1;
+				setLastRowNum(rowNum);
+				int colNum=ws.getRow(0).getLastCellNum();
+				
+				String[][] data= new String[rowNum][colNum];
+				
+				for(int i=0; i<rowNum; i++)
+				{
+					HSSFRow row=ws.getRow(i);
+					for(int j=0; j<colNum; j++)
+					{
+						
+						HSSFCell cell= row.getCell(j);
+						String value=cellToString(cell);
+						data[i][j]=value;				
+					}
+//					System.out.println("Value is "+ data[i][0] + data[i][1] + data[i][2] );
+						//To write data in excel
+//						HSSFCell cell1=row.createCell(5);
+//						cell1.setCellType(Cell.CELL_TYPE_STRING);
+//						cell1.setCellValue("Test1");
+//					FileOutputStream fos=new FileOutputStream("F:\\Nilesh\\Data.xls");
+//						wb.write(fos);
+//						fos.close();						
+				}
+				wb.close();
+				fis.close();
+		return data;
+		
+	}
+
 
 	public static String cellToString(HSSFCell cell){
 //		int type;

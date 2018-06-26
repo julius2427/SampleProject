@@ -1,10 +1,8 @@
 package step_definitions;
 
-import java.io.File;
 import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
 
 import org.junit.After;
 import org.junit.Before;
@@ -45,6 +43,7 @@ public class AppTest extends AbstractPageStepDefinitions
      * @throws Exception 
      */
 @Before
+// Poopy way to get the file path
 	public void getPathLocation() throws URISyntaxException {
 	Path path = Paths.get(FileList.class.getResource("../.").toURI());
 	path = path.getParent();
@@ -55,7 +54,7 @@ public class AppTest extends AbstractPageStepDefinitions
 }
 
 @Test
-	public void testApp() throws Exception
+	public void FullRegression() throws Exception
     {
 		
 		
@@ -67,8 +66,26 @@ public class AppTest extends AbstractPageStepDefinitions
 		for(int i=0;i<list.length;i++) {
 			System.out.println("LISTING CRAP OUT " + list[i].toString());
 		}
-		KeywordFramework.main(driver, list);
+		ExcelTestCaseSelector regression = new ExcelTestCaseSelector(list, true);
+		KeywordFramework.main(driver, regression);
     }
+
+@Test
+	public void singlePathsingleSheet() throws Exception{
+	//Manually setting the path to workbook you want here
+	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls";
+	String sheetname = "Location Finder";
+	ExcelTestCaseSelector testcase = new ExcelTestCaseSelector(singlepath, sheetname);
+	KeywordFramework.main(driver, testcase);
+}
+
+@Test
+	public void singlePathMultipleSheet() throws Exception{
+	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework.xls";
+	ExcelTestCaseSelector testcase = new ExcelTestCaseSelector(singlepath);
+	KeywordFramework.main(driver, testcase);
+}
+
 @After
 	public void closeApp() {
 		driver.quit();

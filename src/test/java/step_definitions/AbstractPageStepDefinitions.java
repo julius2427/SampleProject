@@ -14,6 +14,7 @@ public class AbstractPageStepDefinitions {
 			driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
 		}
 		return driver;
