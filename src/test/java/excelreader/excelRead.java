@@ -1,4 +1,4 @@
-package step_definitions.excel;
+package excelreader;
 
 import java.io.File;
 import java.io.FileInputStream;

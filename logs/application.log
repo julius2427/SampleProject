@@ -2834,3 +2834,587 @@
 2018-06-26 09:41:07 INFO  Logger:87 - Step 10.0 Step Name: Insert Email Address
 2018-06-26 10:19:35 ERROR Logger:70 - EXTENSION DIDN'T WORK
 2018-06-26 10:46:11 ERROR Logger:87 - DIDN'T MAKE IT IN PROPERLY
+2018-06-28 10:52:30 INFO  Logger:91 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-28 10:54:23 INFO  Logger:91 - Step 1.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-28 10:54:33 INFO  Logger:91 - Step 2.0 Step Name: Navigate to Find A Location
+2018-06-28 10:54:40 INFO  Logger:91 - Step 3.0 Step Name: Enter valid US Location
+2018-06-28 10:54:40 INFO  Logger:91 - Step 4.0 Step Name: Validate Location Finder Container Displays
+2018-06-28 10:54:40 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-28 10:54:40 INFO  Logger:91 - Step 5.0 Step Name: Select Filter Header
+2018-06-28 10:54:41 INFO  Logger:91 - Step 6.0 Step Name: Veriy Services Filter Displayed
+2018-06-28 10:54:41 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-28 10:54:41 INFO  Logger:87 - Test Case: Location Finder CA
+2018-06-28 10:54:41 INFO  Logger:91 - Step  Step Name: 
+2018-06-28 10:54:41 INFO  Logger:91 - Step 7.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-28 10:54:48 INFO  Logger:91 - Step 8.0 Step Name: Navigate to Find A Location
+2018-06-28 10:54:52 INFO  Logger:91 - Step 9.0 Step Name: Enter valid US Location
+2018-06-28 10:54:52 INFO  Logger:91 - Step 10.0 Step Name: Validate Location Finder Container Displays
+2018-06-28 10:54:52 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-28 10:54:52 INFO  Logger:91 - Step 11.0 Step Name: Select Filter Header
+2018-06-28 10:54:52 INFO  Logger:91 - Step 12.0 Step Name: Veriy Services Filter Displayed
+2018-06-28 10:54:53 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-28 10:54:53 INFO  Logger:87 - Test Case: Location Finder CA/FR
+2018-06-28 10:54:53 INFO  Logger:91 - Step  Step Name: 
+2018-06-28 10:54:53 INFO  Logger:91 - Step 13.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-28 10:54:57 INFO  Logger:91 - Step 14.0 Step Name: Verify French Location Navigation Matches expected
+2018-06-28 10:54:57 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-28 10:54:57 INFO  Logger:91 - Step 15.0 Step Name: Navigate to Location Finder
+2018-06-28 10:55:00 INFO  Logger:91 - Step 16.0 Step Name: Verify French Zip Search Container
+2018-06-28 10:55:00 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-28 10:55:00 INFO  Logger:91 - Step 17.0 Step Name: Enter valid CA Location
+2018-06-28 10:55:00 INFO  Logger:91 - Step 18.0 Step Name: Validate Location Finder Container Displays
+2018-06-28 10:55:00 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-28 10:55:00 INFO  Logger:91 - Step 19.0 Step Name: Select Filter Header
+2018-06-28 10:55:01 INFO  Logger:91 - Step 20.0 Step Name: Verify Filter Options Displayed
+2018-06-28 10:55:01 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-06-28 10:55:01 INFO  Logger:91 - Step 21.0 Step Name: Navigate to Cintas Staging Environment
+2018-06-28 10:55:05 INFO  Logger:91 - Step 22.0 Step Name: Verify French Location Navigation Matches expected
+2018-06-28 10:55:05 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-28 10:55:05 INFO  Logger:87 - Test Case: Location Finder Invalid CA
+2018-06-28 10:55:05 INFO  Logger:91 - Step  Step Name: 
+2018-06-28 10:55:05 INFO  Logger:91 - Step 23.0 Step Name: Navigate to Location Finder
+2018-06-28 10:55:06 INFO  Logger:91 - Step 24.0 Step Name: Verify French Zip Search Container
+2018-06-28 10:55:06 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-28 10:55:06 INFO  Logger:91 - Step 25.0 Step Name: Enter an Invalid CA Location
+2018-06-28 10:55:06 INFO  Logger:91 - Step 27.0 Step Name: Select Filter Header
+2018-06-28 10:55:07 INFO  Logger:91 - Step 28.0 Step Name: Verify Filter Options Displayed
+2018-06-28 10:55:07 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-06-28 10:55:10 INFO  Logger:43 - Test Scenarios: ContactUs
+2018-06-28 10:55:10 INFO  Logger:44 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-06-28 10:55:10 INFO  Logger:91 - Step 1.0 Step Name: Open Firefox and go to URL
+2018-06-28 10:55:18 INFO  Logger:91 - Step 2.0 Step Name: Click Contact Us
+2018-06-28 10:55:19 INFO  Logger:91 - Step 3.0 Step Name: Clear First Name
+2018-06-28 10:55:19 INFO  Logger:91 - Step 4.0 Step Name: Clear Last Name
+2018-06-28 10:55:20 INFO  Logger:91 - Step 5.0 Step Name: Clear Company
+2018-06-28 10:55:20 INFO  Logger:91 - Step 6.0 Step Name: Insert Comment
+2018-06-28 10:55:21 INFO  Logger:91 - Step 7.0 Step Name: Insert Address
+2018-06-28 10:55:21 INFO  Logger:91 - Step 8.0 Step Name: Insert Postal Code
+2018-06-28 10:55:22 INFO  Logger:91 - Step 9.0 Step Name: Insert Phone Number
+2018-06-28 10:55:22 INFO  Logger:91 - Step 10.0 Step Name: Insert Email Address
+2018-06-28 10:55:23 INFO  Logger:91 - Step 11.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-28 10:55:24 INFO  Logger:91 - Step 12.0 Step Name: Insert First Name
+2018-06-28 10:55:24 INFO  Logger:91 - Step 13.0 Step Name: Insert Last Name
+2018-06-28 10:55:25 INFO  Logger:91 - Step 14.0 Step Name: Insert Company
+2018-06-28 10:55:25 INFO  Logger:91 - Step 15.0 Step Name: Insert Comment
+2018-06-28 10:55:26 INFO  Logger:91 - Step 16.0 Step Name: Insert Address
+2018-06-28 10:55:26 INFO  Logger:91 - Step 17.0 Step Name: Insert Postal Code
+2018-06-28 10:55:27 INFO  Logger:91 - Step 18.0 Step Name: Insert Phone Number
+2018-06-28 10:55:27 INFO  Logger:91 - Step 19.0 Step Name: Insert Email Address
+2018-06-28 10:55:28 INFO  Logger:91 - Step 20.0 Step Name: Submit Contact Form
+2018-06-28 10:55:29 INFO  Logger:91 - Step 21.0 Step Name: Verify Contact Form CAFR Submission
+2018-06-28 10:55:29 INFO  Logger:108 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-06-28 10:55:29 INFO  Logger:87 - Test Case: Contact Us
+2018-06-28 10:55:29 INFO  Logger:91 - Step  Step Name: 
+2018-06-28 10:55:29 INFO  Logger:91 - Step 22.0 Step Name: Open Firefox and go to URL
+2018-06-28 10:55:34 INFO  Logger:91 - Step 23.0 Step Name: Click Contact Us
+2018-06-28 10:55:35 INFO  Logger:91 - Step 24.0 Step Name: Clear First Name
+2018-06-28 10:55:35 INFO  Logger:91 - Step 25.0 Step Name: Clear Last Name
+2018-06-28 10:55:36 INFO  Logger:91 - Step 26.0 Step Name: Clear Company
+2018-06-28 10:55:36 INFO  Logger:91 - Step 27.0 Step Name: Insert Comment
+2018-06-28 10:55:37 INFO  Logger:91 - Step 28.0 Step Name: Insert Address
+2018-06-28 10:55:37 INFO  Logger:91 - Step 29.0 Step Name: Insert Postal Code
+2018-06-28 10:55:38 INFO  Logger:91 - Step 30.0 Step Name: Insert Phone Number
+2018-06-28 10:55:38 INFO  Logger:91 - Step 31.0 Step Name: Insert Email Address
+2018-06-28 10:55:39 INFO  Logger:91 - Step 32.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-28 10:55:40 INFO  Logger:91 - Step 33.0 Step Name: Insert First Name
+2018-06-28 10:55:40 INFO  Logger:91 - Step 34.0 Step Name: Insert Last Name
+2018-06-28 10:55:41 INFO  Logger:91 - Step 35.0 Step Name: Insert Company
+2018-06-28 10:55:41 INFO  Logger:91 - Step 36.0 Step Name: Insert Comment
+2018-06-28 10:55:42 INFO  Logger:91 - Step 37.0 Step Name: Insert Address
+2018-06-28 10:55:42 INFO  Logger:91 - Step 38.0 Step Name: Insert Postal Code
+2018-06-28 10:55:43 INFO  Logger:91 - Step 39.0 Step Name: Insert Phone Number
+2018-06-28 10:55:43 INFO  Logger:91 - Step 40.0 Step Name: Insert Email Address
+2018-06-28 10:55:44 INFO  Logger:91 - Step 41.0 Step Name: Submit Contact Form
+2018-06-28 10:55:45 INFO  Logger:91 - Step 42.0 Step Name: Submit Anyway
+2018-06-28 10:55:45 INFO  Logger:91 - Step 43.0 Step Name: Verify Contact Form US Submission
+2018-06-28 10:55:45 INFO  Logger:108 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-06-28 10:55:45 INFO  Logger:87 - Test Case: Contact Us Try Again
+2018-06-28 10:55:45 INFO  Logger:91 - Step 44.0 Step Name: 
+2018-06-28 10:55:45 INFO  Logger:91 - Step 45.0 Step Name: Open Firefox and go to URL
+2018-06-28 10:55:50 INFO  Logger:91 - Step 46.0 Step Name: Click Contact Us
+2018-06-28 10:55:50 INFO  Logger:91 - Step 47.0 Step Name: Clear First Name
+2018-06-28 10:55:51 INFO  Logger:91 - Step 48.0 Step Name: Clear Last Name
+2018-06-28 10:55:52 INFO  Logger:91 - Step 49.0 Step Name: Clear Company
+2018-06-28 10:55:52 INFO  Logger:91 - Step 50.0 Step Name: Insert Comment
+2018-06-28 10:55:53 INFO  Logger:91 - Step 51.0 Step Name: Insert Address
+2018-06-28 10:55:53 INFO  Logger:91 - Step 52.0 Step Name: Insert Postal Code
+2018-06-28 10:55:54 INFO  Logger:91 - Step 53.0 Step Name: Insert Phone Number
+2018-06-28 10:55:54 INFO  Logger:91 - Step 54.0 Step Name: Insert Email Address
+2018-06-28 10:55:55 INFO  Logger:91 - Step 55.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-28 10:55:55 INFO  Logger:91 - Step 56.0 Step Name: Insert First Name
+2018-06-28 10:55:56 INFO  Logger:91 - Step 57.0 Step Name: Insert Last Name
+2018-06-28 10:55:56 INFO  Logger:91 - Step 58.0 Step Name: Insert Company
+2018-06-28 10:55:57 INFO  Logger:91 - Step 59.0 Step Name: Insert Comment
+2018-06-28 10:55:58 INFO  Logger:91 - Step 60.0 Step Name: Insert Address
+2018-06-28 10:55:58 INFO  Logger:91 - Step 61.0 Step Name: Insert Postal Code
+2018-06-28 10:55:59 INFO  Logger:91 - Step 62.0 Step Name: Insert Phone Number
+2018-06-28 10:55:59 INFO  Logger:91 - Step 63.0 Step Name: Insert Email Address
+2018-06-28 10:56:00 INFO  Logger:91 - Step 64.0 Step Name: Submit Contact Form
+2018-06-28 10:56:00 INFO  Logger:91 - Step 65.0 Step Name: Submit Anyway
+2018-06-28 10:56:01 INFO  Logger:91 - Step 66.0 Step Name: Insert Address
+2018-06-28 10:56:02 INFO  Logger:91 - Step 67.0 Step Name: Insert Postal Code
+2018-06-28 10:56:02 INFO  Logger:91 - Step 68.0 Step Name: Insert Address
+2018-06-28 10:56:03 INFO  Logger:91 - Step 69.0 Step Name: Insert Postal Code
+2018-06-28 10:56:03 INFO  Logger:91 - Step 70.0 Step Name: Submit Google Address
+2018-06-28 10:56:04 INFO  Logger:91 - Step 71.0 Step Name: Verify Contact Form US Submission Try Again
+2018-06-28 10:56:04 INFO  Logger:108 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-06-28 10:56:04 INFO  Logger:91 - Step 72.0 Step Name: Screenshot_Capture_US_CompletedSubmission
+2018-06-28 10:56:04 INFO  Logger:87 - Test Case: Contact Us CA
+2018-06-28 10:56:04 INFO  Logger:91 - Step 73.0 Step Name: 
+2018-06-28 10:56:04 INFO  Logger:91 - Step 74.0 Step Name: Open Firefox and go to URL
+2018-06-28 10:56:08 INFO  Logger:91 - Step 75.0 Step Name: Click Contact Us
+2018-06-28 10:56:09 INFO  Logger:91 - Step 76.0 Step Name: Clear First Name
+2018-06-28 10:56:09 INFO  Logger:91 - Step 77.0 Step Name: Clear Last Name
+2018-06-28 10:56:10 INFO  Logger:91 - Step 78.0 Step Name: Clear Company
+2018-06-28 10:56:10 INFO  Logger:91 - Step 79.0 Step Name: Insert Comment
+2018-06-28 10:56:11 INFO  Logger:91 - Step 80.0 Step Name: Insert Address
+2018-06-28 10:56:12 INFO  Logger:91 - Step 81.0 Step Name: Insert Postal Code
+2018-06-28 10:56:12 INFO  Logger:91 - Step 82.0 Step Name: Insert Phone Number
+2018-06-28 10:56:13 INFO  Logger:91 - Step 83.0 Step Name: Insert Email Address
+2018-06-28 10:56:13 INFO  Logger:91 - Step 84.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-28 10:56:14 INFO  Logger:91 - Step 85.0 Step Name: Insert First Name
+2018-06-28 10:56:14 INFO  Logger:91 - Step 86.0 Step Name: Insert Last Name
+2018-06-28 10:56:15 INFO  Logger:91 - Step 87.0 Step Name: Insert Company
+2018-06-28 10:56:15 INFO  Logger:91 - Step 88.0 Step Name: Insert Comment
+2018-06-28 10:56:16 INFO  Logger:91 - Step 89.0 Step Name: Insert Address
+2018-06-28 10:56:17 INFO  Logger:91 - Step 90.0 Step Name: Insert Postal Code
+2018-06-28 10:56:17 INFO  Logger:91 - Step 91.0 Step Name: Insert Phone Number
+2018-06-28 10:56:18 INFO  Logger:91 - Step 92.0 Step Name: Insert Email Address
+2018-06-28 10:56:18 INFO  Logger:91 - Step 93.0 Step Name: Submit Contact Form
+2018-06-28 10:56:19 INFO  Logger:91 - Step 94.0 Step Name: Verify Contact Form CA Submission
+2018-06-28 10:56:19 INFO  Logger:108 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-06-28 10:56:19 INFO  Logger:87 - Test Case: Contact Us CA/FR
+2018-06-28 10:56:19 INFO  Logger:91 - Step 95.0 Step Name: 
+2018-06-28 10:56:19 INFO  Logger:91 - Step 96.0 Step Name: Open Firefox and go to URL
+2018-06-28 10:56:23 INFO  Logger:91 - Step 97.0 Step Name: Click Contact Us
+2018-06-28 10:56:24 INFO  Logger:91 - Step 98.0 Step Name: Clear First Name
+2018-06-28 10:56:24 INFO  Logger:91 - Step 99.0 Step Name: Clear Last Name
+2018-06-28 10:56:25 INFO  Logger:91 - Step 100.0 Step Name: Clear Company
+2018-06-28 10:56:25 INFO  Logger:91 - Step 101.0 Step Name: Insert Comment
+2018-06-28 10:56:26 INFO  Logger:91 - Step 102.0 Step Name: Insert Address
+2018-06-28 10:56:26 INFO  Logger:91 - Step 103.0 Step Name: Insert Postal Code
+2018-06-28 10:56:27 INFO  Logger:91 - Step 104.0 Step Name: Insert Phone Number
+2018-06-28 10:56:27 INFO  Logger:91 - Step 105.0 Step Name: Insert Email Address
+2018-06-28 10:56:28 INFO  Logger:91 - Step 106.0 Step Name: Select Uniform & Apparel Checkbox
+2018-06-28 10:56:29 INFO  Logger:91 - Step 107.0 Step Name: Insert First Name
+2018-06-28 10:56:29 INFO  Logger:91 - Step 108.0 Step Name: Insert Last Name
+2018-06-28 10:56:30 INFO  Logger:91 - Step 109.0 Step Name: Insert Company
+2018-06-28 10:56:30 INFO  Logger:91 - Step 110.0 Step Name: Insert Comment
+2018-06-28 10:56:31 INFO  Logger:91 - Step 111.0 Step Name: Insert Address
+2018-06-28 10:56:31 INFO  Logger:91 - Step 112.0 Step Name: Insert Postal Code
+2018-06-28 10:56:32 INFO  Logger:91 - Step 113.0 Step Name: Insert Phone Number
+2018-06-28 10:56:32 INFO  Logger:91 - Step 114.0 Step Name: Insert Email Address
+2018-06-28 10:56:33 INFO  Logger:91 - Step 115.0 Step Name: Submit Contact Form
+2018-06-28 10:56:34 INFO  Logger:91 - Step 116.0 Step Name: Verify Contact Form CAFR Submission
+2018-06-28 10:56:34 ERROR Logger:161 - java.lang.AssertionErrorString Location Value: Merci. Nous avons reçu votre demande. Un représentant du service à la clientèle communiquera avec vous d’ici 48 heures. Nous vous remercions de votre intérêt pour Cintas, et serons heureux de discuter avec vous bientôt. Expected Result: Thank You. We have received your request. Please expect a customer service representative to contact you within the next 48 hours. Thank you for your interest in Cintas. We look forward to speaking with you soon.
+2018-06-29 13:48:21 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-29 13:48:22 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-29 13:48:33 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-29 13:48:34 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-06-29 13:48:40 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-29 13:48:44 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-29 13:48:44 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-06-29 13:48:45 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-06-29 13:48:49 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-06-29 13:48:50 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-06-29 13:48:51 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 14:49:15 INFO  Logger:43 - Test Scenarios: ContactUs
+2018-07-02 14:49:15 INFO  Logger:44 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-02 15:48:53 INFO  Logger:43 - Test Scenarios: ContactUs
+2018-07-02 15:48:53 INFO  Logger:44 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-02 15:49:28 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:49:29 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 15:49:35 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:49:35 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 15:49:40 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 15:49:41 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 15:49:41 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:49:42 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 15:49:46 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 15:49:47 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 15:49:48 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 15:54:31 INFO  Logger:43 - Test Scenarios: ContactUs
+2018-07-02 15:54:31 INFO  Logger:44 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-02 15:54:49 INFO  Logger:108 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-02 15:55:07 INFO  Logger:108 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-07-02 15:55:25 INFO  Logger:108 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-07-02 15:55:40 INFO  Logger:108 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-07-02 15:55:55 INFO  Logger:108 - Step No. 116.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-02 15:56:01 INFO  Logger:119 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-07-02 15:56:01 INFO  Logger:119 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-07-02 15:56:01 INFO  Logger:119 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-07-02 15:56:01 INFO  Logger:119 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-07-02 15:56:04 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 15:56:10 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 15:56:15 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 15:56:21 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:56:22 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 15:56:27 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:56:28 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 15:56:32 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 15:56:37 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 15:56:37 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:56:38 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 15:56:42 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 15:56:43 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 15:56:43 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 15:56:50 INFO  Logger:119 - Step No. 3.0 Step Name Verify Search Results Available Result: Pass
+2018-07-02 15:57:03 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:57:04 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 15:57:10 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:57:11 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 15:57:15 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 15:57:16 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 15:57:16 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 15:57:17 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 15:57:21 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 15:57:22 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 15:57:23 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 16:03:07 INFO  Logger:43 - Test Scenarios: ContactUs
+2018-07-02 16:03:08 INFO  Logger:44 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-02 16:05:14 INFO  Logger:108 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-02 16:05:35 INFO  Logger:108 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-07-02 16:05:54 INFO  Logger:108 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-07-02 16:06:09 INFO  Logger:108 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-07-02 16:06:23 INFO  Logger:108 - Step No. 116.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-02 16:06:29 INFO  Logger:119 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-07-02 16:06:29 INFO  Logger:119 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-07-02 16:06:29 INFO  Logger:119 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-07-02 16:06:29 INFO  Logger:119 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-07-02 16:06:33 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 16:06:40 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 16:06:45 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 16:06:57 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 16:06:58 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 16:07:03 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 16:07:04 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 16:07:08 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 16:07:09 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 16:07:09 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 16:07:10 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 16:07:14 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 16:07:15 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 16:07:16 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 16:07:20 INFO  Logger:119 - Step No. 3.0 Step Name Verify Search Results Available Result: Pass
+2018-07-02 16:26:26 INFO  Logger:43 - Test Scenarios: ContactUs
+2018-07-02 16:26:26 INFO  Logger:44 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-02 16:31:34 INFO  Logger:108 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-02 16:31:52 INFO  Logger:108 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-07-02 16:32:36 INFO  Logger:108 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-07-02 16:33:29 INFO  Logger:108 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-07-02 16:33:44 INFO  Logger:108 - Step No. 116.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-02 16:33:50 INFO  Logger:119 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-07-02 16:33:50 INFO  Logger:119 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-07-02 16:33:50 INFO  Logger:119 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-07-02 16:33:50 INFO  Logger:119 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-07-02 16:33:53 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 16:33:58 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 16:34:03 INFO  Logger:123 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-02 16:34:09 INFO  Logger:119 - Step No. 4.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 16:34:10 INFO  Logger:119 - Step No. 6.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 16:34:15 INFO  Logger:119 - Step No. 10.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 16:34:16 INFO  Logger:119 - Step No. 12.0 Step Name Veriy Services Filter Displayed Result: Pass
+2018-07-02 16:34:20 INFO  Logger:108 - Step No. 14.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 16:34:21 INFO  Logger:108 - Step No. 16.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 16:34:21 INFO  Logger:119 - Step No. 18.0 Step Name Validate Location Finder Container Displays Result: Pass
+2018-07-02 16:34:22 INFO  Logger:119 - Step No. 20.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 16:34:26 INFO  Logger:108 - Step No. 22.0 Step Name Verify French Location Navigation Matches expected Result: Pass
+2018-07-02 16:34:27 INFO  Logger:108 - Step No. 24.0 Step Name Verify French Zip Search Container Result: Pass
+2018-07-02 16:34:28 INFO  Logger:119 - Step No. 28.0 Step Name Verify Filter Options Displayed Result: Pass
+2018-07-02 16:34:32 INFO  Logger:119 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-02 16:42:13 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-02 16:42:13 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-02 16:42:13 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-02 16:43:49 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-02 16:43:49 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-02 16:43:50 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-02 16:43:52 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-02 16:43:52 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-02 16:43:52 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-02 16:56:23 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-02 16:56:23 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-02 16:56:24 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-02 16:57:01 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-02 16:57:01 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-02 16:57:01 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-02 16:57:39 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-02 16:57:39 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-02 16:57:42 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-06 11:13:18 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 11:13:30 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 11:13:30 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 12:58:32 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 12:58:43 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 12:58:44 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:12:53 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:12:53 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:12:54 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:12:55 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:12:55 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:12:56 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 13:12:56 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:20:38 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:20:38 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:20:39 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:20:40 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:20:40 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 13:20:40 INFO  Logger:125 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 13:20:40 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:21:49 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:21:49 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:21:49 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:21:50 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:21:50 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 13:21:50 INFO  Logger:125 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 13:21:51 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:21:51 INFO  Logger:117 - Step No. 10.0 Step Name Search Result: Pass
+2018-07-06 13:21:54 INFO  Logger:125 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-06 13:22:10 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:22:10 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:22:10 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:22:11 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:23:56 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:23:56 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:23:56 INFO  Logger:125 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:23:57 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:59:31 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 13:59:46 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 13:59:46 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 13:59:46 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:01:27 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:02:00 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:02:00 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:02:01 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:02:20 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:02:20 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:02:20 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:08:26 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:08:36 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:08:36 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:08:38 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:08:40 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:08:41 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:08:41 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:08:41 INFO  Logger:117 - Step No. 10.0 Step Name Search Result: Pass
+2018-07-06 14:08:42 INFO  Logger:127 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-06 14:08:56 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:08:56 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:08:56 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:08:56 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:29:41 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:29:44 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:29:44 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:29:45 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:29:47 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:29:47 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:29:47 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:35:34 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:35:51 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:35:51 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:35:53 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:36:04 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:36:04 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:36:04 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:36:16 INFO  Logger:117 - Step No. 10.0 Step Name Search Result: Pass
+2018-07-06 14:36:16 INFO  Logger:127 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-06 14:36:28 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:36:30 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:36:30 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:36:32 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:36:34 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:36:34 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:36:34 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:38:38 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:38:40 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:38:40 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:38:41 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:38:41 ERROR Logger:201 - MADE IT HERE!!!: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3724.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3850, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 4cb0633c-a782-da42-8a1e-57604f61a93c
+*** Element info: {Using=id, value=GoogleSearchText}
+2018-07-06 14:38:41 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:40:13 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:40:15 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:40:15 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:40:15 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:40:15 ERROR Logger:201 - MADE IT HERE!!!: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3724.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3909, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6b6cb5b2-1c1e-684f-a5b2-34e38d507b3f
+*** Element info: {Using=id, value=GoogleSearchText}
+2018-07-06 14:40:15 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:40:16 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:40:17 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:40:19 INFO  Logger:117 - Step No. 10.0 Step Name Search Result: Pass
+2018-07-06 14:40:19 INFO  Logger:127 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-06 14:43:14 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:43:16 INFO  Logger:117 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-06 14:43:16 INFO  Logger:127 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-06 14:43:17 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:43:19 INFO  Logger:117 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-06 14:43:20 INFO  Logger:127 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-06 14:43:20 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-06 14:43:22 INFO  Logger:117 - Step No. 10.0 Step Name Search Result: Pass
+2018-07-06 14:43:23 INFO  Logger:127 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-09 15:37:29 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-09 15:42:18 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-09 15:42:50 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-09 15:45:04 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-09 15:45:24 FATAL Logger:127 - FATAL ERROR: Step No. 2.0 Step Name Search Result: FAIL
+2018-07-09 15:45:24 FATAL Logger:128 - Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: #blahblah
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 22248, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2a2045a6-9948-6841-9dfe-98c7c1e3c5f9
+*** Element info: {Using=id, value=blahblah}
+2018-07-09 17:01:44 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-09 17:01:45 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-09 17:02:04 FATAL Logger:138 - FATAL ERROR: Step No. 2.0 Step Name Search Result: FAIL
+2018-07-09 17:02:04 FATAL Logger:139 - Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: #blahblah
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 24436, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5dadc62a-4a6d-534c-82e0-b055ba6291d1
+*** Element info: {Using=id, value=blahblah}
+2018-07-09 17:02:05 FATAL Logger:138 - FATAL ERROR: Step No. 2.0 Step Name Search Result: FAIL
+2018-07-09 17:02:05 FATAL Logger:139 - Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: #blahblah
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 24437, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b270fc6a-8970-cc49-a25f-c6ac1d54bf35
+*** Element info: {Using=id, value=blahblah}
+2018-07-10 10:16:02 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:16:22 FATAL Logger:151 - FATAL ERROR: Step No. 2.0 Step Name Search Result: FAIL
+2018-07-10 10:16:22 FATAL Logger:152 - Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: #blahblah
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 27545, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 23f166f7-c1da-534a-8f36-d421f9b3bbc0
+*** Element info: {Using=id, value=blahblah}
+2018-07-10 10:16:42 FATAL Logger:167 - FATAL ERROR: Step No. 3.0 Step Name Verify Search Results Available US Result: FAIL
+2018-07-10 10:16:42 FATAL Logger:168 - Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: #sfsearchResultStatistics
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 27545, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 23f166f7-c1da-534a-8f36-d421f9b3bbc0
+*** Element info: {Using=id, value=sfsearchResultStatistics}
+2018-07-10 10:16:42 INFO  Logger:174 - Step No. 3.0 Step Name Verify Search Results Available US Result: FAIL
+2018-07-10 10:16:44 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:16:46 INFO  Logger:149 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-10 10:16:46 INFO  Logger:172 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-10 10:16:46 INFO  Logger:96 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:20:54 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:20:56 INFO  Logger:149 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-10 10:20:56 INFO  Logger:172 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-10 10:20:56 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:28:01 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:28:03 INFO  Logger:149 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-10 10:28:04 INFO  Logger:174 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-10 10:28:04 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:28:17 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:28:31 INFO  Logger:149 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-10 10:28:58 INFO  Logger:174 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-10 10:28:59 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:29:01 INFO  Logger:149 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-10 10:29:45 INFO  Logger:96 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:29:47 INFO  Logger:149 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-10 10:29:47 INFO  Logger:174 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-10 10:29:47 INFO  Logger:96 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:35:07 INFO  Logger:97 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:35:09 INFO  Logger:150 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-10 10:35:29 FATAL Logger:173 - FATAL ERROR: Step No. 3.0 Step Name Verify Search Results Available US Result: FAIL
+2018-07-10 10:35:29 FATAL Logger:174 - Error Message: org.openqa.selenium.NoSuchElementException: Unable to locate element: #sfsearchResultStatistics
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28163, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3b0032cb-2c5e-5b40-946b-9b859a698b23
+*** Element info: {Using=id, value=sfsearchResultStatistics}
+2018-07-10 10:35:29 INFO  Logger:181 - Step No. 3.0 Step Name Verify Search Results Available US Result: FAIL
+2018-07-10 10:35:31 INFO  Logger:97 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:35:33 INFO  Logger:150 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-10 10:35:34 INFO  Logger:179 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-10 10:35:34 INFO  Logger:97 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:35:34 FATAL Logger:156 - FATAL ERROR: Step No. 10.0 Step Name Search Result: FAIL
+2018-07-10 10:35:34 FATAL Logger:157 - Error Message: org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'MacBook-Pro-3797.local', ip: 'fe80:0:0:0:1ce0:6199:2020:3eca%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28163, moz:profile: /var/folders/gx/2wmwc6lj4jz..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.4.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3b0032cb-2c5e-5b40-946b-9b859a698b23
+*** Element info: {Using=id, value=GoogleSearchText}
+2018-07-10 10:35:34 INFO  Logger:179 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-10 10:43:34 INFO  Logger:98 - Step No. 1.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:43:36 INFO  Logger:151 - Step No. 2.0 Step Name Search Result: Pass
+2018-07-10 10:43:37 INFO  Logger:181 - Step No. 3.0 Step Name Verify Search Results Available US Result: Pass
+2018-07-10 10:43:38 INFO  Logger:98 - Step No. 5.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:43:40 INFO  Logger:151 - Step No. 6.0 Step Name Search Result: Pass
+2018-07-10 10:43:40 INFO  Logger:181 - Step No. 7.0 Step Name Verify Search Results Available CA Result: Pass
+2018-07-10 10:43:41 INFO  Logger:98 - Step No. 9.0 Step Name Navigate to Cintas Staging Environment Result: Pass
+2018-07-10 10:43:43 INFO  Logger:151 - Step No. 10.0 Step Name Search Result: Pass
+2018-07-10 10:43:43 INFO  Logger:181 - Step No. 11.0 Step Name Verify Search Results Available CA/FR Result: Pass
+2018-07-10 10:51:19 INFO  Logger:45 - Test Scenarios: ContactUs
+2018-07-10 10:51:19 INFO  Logger:46 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-10 10:51:26 INFO  Logger:98 - Step No. 1.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:51:27 INFO  Logger:105 - Step No. 2.0 Step Name Click Contact Us Result: Pass
+2018-07-10 10:51:32 INFO  Logger:105 - Step No. 11.0 Step Name Select Uniform & Apparel Checkbox Result: Pass
+2018-07-10 10:51:37 INFO  Logger:105 - Step No. 20.0 Step Name Submit Contact Form Result: Pass
+2018-07-10 10:51:37 ERROR Logger:166 - java.lang.AssertionErrorString Location Value:  Expected Result: Merci. Nous avons reçu votre demande. Un représentant du service à la clientèle communiquera avec vous d’ici 48 heures. Nous vous remercions de votre intérêt pour Cintas, et serons heureux de discuter avec vous bientôt.
+2018-07-10 10:51:37 INFO  Logger:139 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-10 10:51:37 INFO  Logger:98 - Step No. 22.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:54:51 INFO  Logger:45 - Test Scenarios: ContactUs
+2018-07-10 10:54:51 INFO  Logger:46 - Test File Location /Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx
+2018-07-10 10:54:54 INFO  Logger:98 - Step No. 1.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:54:54 INFO  Logger:105 - Step No. 2.0 Step Name Click Contact Us Result: Pass
+2018-07-10 10:54:59 INFO  Logger:105 - Step No. 11.0 Step Name Select Uniform & Apparel Checkbox Result: Pass
+2018-07-10 10:55:04 INFO  Logger:105 - Step No. 20.0 Step Name Submit Contact Form Result: Pass
+2018-07-10 10:55:04 INFO  Logger:139 - Step No. 21.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-10 10:55:08 INFO  Logger:98 - Step No. 22.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:55:08 INFO  Logger:105 - Step No. 23.0 Step Name Click Contact Us Result: Pass
+2018-07-10 10:55:13 INFO  Logger:105 - Step No. 32.0 Step Name Select Uniform & Apparel Checkbox Result: Pass
+2018-07-10 10:55:18 INFO  Logger:105 - Step No. 41.0 Step Name Submit Contact Form Result: Pass
+2018-07-10 10:55:19 INFO  Logger:105 - Step No. 42.0 Step Name Submit Anyway Result: Pass
+2018-07-10 10:55:19 INFO  Logger:139 - Step No. 43.0 Step Name Verify Contact Form US Submission Result: Pass
+2018-07-10 10:55:20 INFO  Logger:98 - Step No. 45.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:55:21 INFO  Logger:105 - Step No. 46.0 Step Name Click Contact Us Result: Pass
+2018-07-10 10:55:26 INFO  Logger:105 - Step No. 55.0 Step Name Select Uniform & Apparel Checkbox Result: Pass
+2018-07-10 10:55:31 INFO  Logger:105 - Step No. 64.0 Step Name Submit Contact Form Result: Pass
+2018-07-10 10:55:31 INFO  Logger:105 - Step No. 65.0 Step Name Submit Anyway Result: Pass
+2018-07-10 10:55:34 INFO  Logger:105 - Step No. 70.0 Step Name Submit Google Address Result: Pass
+2018-07-10 10:55:34 INFO  Logger:139 - Step No. 71.0 Step Name Verify Contact Form US Submission Try Again Result: Pass
+2018-07-10 10:55:35 INFO  Logger:98 - Step No. 74.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:55:36 INFO  Logger:105 - Step No. 75.0 Step Name Click Contact Us Result: Pass
+2018-07-10 10:55:41 INFO  Logger:105 - Step No. 84.0 Step Name Select Uniform & Apparel Checkbox Result: Pass
+2018-07-10 10:55:46 INFO  Logger:105 - Step No. 93.0 Step Name Submit Contact Form Result: Pass
+2018-07-10 10:55:46 INFO  Logger:139 - Step No. 94.0 Step Name Verify Contact Form CA Submission Result: Pass
+2018-07-10 10:55:46 INFO  Logger:98 - Step No. 96.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:55:47 INFO  Logger:105 - Step No. 97.0 Step Name Click Contact Us Result: Pass
+2018-07-10 10:55:52 INFO  Logger:105 - Step No. 106.0 Step Name Select Uniform & Apparel Checkbox Result: Pass
+2018-07-10 10:55:57 INFO  Logger:105 - Step No. 115.0 Step Name Submit Contact Form Result: Pass
+2018-07-10 10:55:57 INFO  Logger:139 - Step No. 116.0 Step Name Verify Contact Form CAFR Submission Result: Pass
+2018-07-10 10:55:58 INFO  Logger:98 - Step No. 1.0 Step Name Open Firefox and go to URL Result: Pass
+2018-07-10 10:55:59 INFO  Logger:105 - Step No. 3.0 Step Name Click Mobile Menu Result: Pass
+2018-07-10 10:55:59 INFO  Logger:181 - Step No. 4.0 Step Name Verify Contact Us Result: Pass
+2018-07-10 10:55:59 INFO  Logger:181 - Step No. 5.0 Step Name Verify Find Location Result: Pass
+2018-07-10 10:55:59 INFO  Logger:181 - Step No. 6.0 Step Name Verify Service Grid Result: Pass
+2018-07-10 10:55:59 INFO  Logger:181 - Step No. 7.0 Step Name Verify Home Grid Result: Pass
+2018-07-10 10:56:01 INFO  Logger:98 - Step No. 1.0 Step Name Open Firefox and go to US Cintas Result: Pass
+2018-07-10 10:56:01 INFO  Logger:191 - Step No. 2.0 Step Name Verify URL Result: Pass
+2018-07-10 10:56:05 INFO  Logger:98 - Step No. 1.0 Step Name Open Firefox and go to CA Cintas Result: Pass
+2018-07-10 10:56:05 INFO  Logger:191 - Step No. 2.0 Step Name Verify URL Result: Pass

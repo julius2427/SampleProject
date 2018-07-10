@@ -1,11 +1,13 @@
-package step_definitions;
+package keyworddriventesting;
 import java.io.IOException;
 
-import org.apache.commons.io.FilenameUtils;
 import org.junit.Assert;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 
-import step_definitions.excel.excelRead;
+import excelreader.excelRead;
+import keyworddriventesting.commonfunctions.CommonFunctions;
 
 public class KeywordFramework extends CommonFunctions {
 	static int last_row;
@@ -20,9 +22,9 @@ public class KeywordFramework extends CommonFunctions {
 		//In the process of changing to use constructor to identify different objects.
 		//Going through all Test Case Documents
 		// Singlepath field not null then can be set immediately
-		
-		keywordPath = identify.singlepath.toString();
-	
+		if(!identify.singlepath.isEmpty()) {
+			keywordPath = identify.singlepath.toString();
+		}
 		//Full Regression
 		if(identify.singlepath == null && identify.numberofsheets == true)
 		{
@@ -59,7 +61,7 @@ public class KeywordFramework extends CommonFunctions {
 	}	
 	
 	//Send Excel Sheets to be processed
-	public static void sendExcelSheets(WebDriver driver, int numberofsheets, String sheetName) throws IOException {
+	public static void sendExcelSheets(WebDriver driver, int numberofsheets, String sheetName) throws IOException, InterruptedException {
 		if(sheetName != null) {				
 				data = excelRead.xlsxfetchExcelBySheetName(keywordPath, sheetName);
 				sendToMethod(driver, data);
@@ -79,51 +81,125 @@ public class KeywordFramework extends CommonFunctions {
 		}		
 	}
 	
-	public static void sendToMethod(WebDriver driver, String data[][]) throws IOException {
+	public static void sendToMethod(WebDriver driver, String data[][]) throws IOException, InterruptedException {
 		last_row = excelRead.getLastRowNum();
-		
+		boolean displayed = false;
 		for(int i = 2; i <last_row; i++) {
 			if(data[i][0] != "") {
-				log.info("Test Case: " + data[i][0]);
+				//log.info("Test Case: " + data[i][0]);
 				test_case = data[i][0];
 				//System.out.println("Test Case: " + data[i][0]);
 			}
-			log.info("Step " + data[i][1] + " Step Name: " + data[i][2]);
+			//log.info("Step " + data[i][1] + " Step Name: " + data[i][2]);
 			//System.out.println("Step " + data[i][1] + " Step Name: " + data[i][2]);
 			switch(data[i][3]) {
 			case "navigate_to":
 				navigate_to(driver,data[i][6]);
+				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
 				break;
+			
+			
 			case "click_element":
+				try {
 				click_element(driver, data[i][4],data[i][5]);
+				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
+				}catch (NoSuchElementException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
 				break;
+			
+			
+			
 			case "send_element":
-				send_element(driver, data[i][4], data[i][5], data[i][6]);
+				try {
+					send_element(driver, data[i][4], data[i][5], data[i][6]);
+				}catch(NoSuchElementException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
+
+
 				break;
+			
+			
 			case "clear_element":
-				clear_element(driver,data[i][4], data[i][5]);
+				try {
+					clear_element(driver, data[i][4], data[i][5]);
+				}catch(NoSuchElementException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
 				break;
+			
+			
 			case "verify_element":
+				try {
 				verify_element(driver, data[i][4], data[i][5], data[i][6]);
 				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
-				
+				}catch(NoSuchElementException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
 				break;
+			
+			
 			case "click_enter":
+				try {
+					
 				click_enter(driver, data[i][4], data[i][5], data[i][6]);
+				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
+				}catch(NoSuchElementException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				
+				}catch(UnhandledAlertException e) {
+					//Added UnhandledAlertException not sure why this keeps happening
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
 				break;
 			case "resize_window": 
 				resize_window(driver, data[i][6], data[i][7]);
+				//log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
 				break;
+
 			case "verify_displayed":
-				verify_displayed(driver, data[i][4],data[i][5]);
-				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
+				displayed = false;
+				try {
+					
+					displayed = verify_displayed(driver, data[i][4],data[i][5]);
+				
+				}catch(NoSuchElementException e) {
+					
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+					
+				}
+				
+				if(displayed) {
+					log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
+				}else {
+					log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+				}
 				break;
+				
+				
 			case "verify_url":
+				try {
 				verify_url(driver, data[i][6]);
 				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
+				}catch(NoSuchElementException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
+				
 				break;
 			case "takescreenshot":
+				
+				
 				ScreenCapture.takeSnapShot(driver, data[i][3]);
+				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
 			case "quit":
 				quit(driver);
 				break;

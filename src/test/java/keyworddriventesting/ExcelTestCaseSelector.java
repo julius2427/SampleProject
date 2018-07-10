@@ -1,4 +1,4 @@
-package step_definitions;
+package keyworddriventesting;
 
 public class ExcelTestCaseSelector {
 	String path[] = null;

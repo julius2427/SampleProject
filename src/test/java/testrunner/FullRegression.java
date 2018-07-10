@@ -1,4 +1,4 @@
-package step_definitions;
+package testrunner;
 
 import java.net.URISyntaxException;
 import java.nio.file.Path;
@@ -8,15 +8,20 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+
+import keyworddriventesting.ExcelTestCaseSelector;
+import keyworddriventesting.KeywordFramework;
+import keyworddriventesting.keywordPath;
+import keyworddriventesting.commonfunctions.AbstractPageStepDefinitions;
+import keyworddriventesting.commonfunctions.FileList;
 /**
  * Unit test for simple App.
  */
-public class AppTest extends AbstractPageStepDefinitions
+public class FullRegression extends AbstractPageStepDefinitions
 {
 
 	//Location of Keyword Document
 	//private String keyword_path = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/KeywordDrivenFramework.xls";
-	private String keyword_path;
 	
 	WebDriver driver = getDriver();
 	/**
@@ -44,19 +49,16 @@ public class AppTest extends AbstractPageStepDefinitions
      */
 @Before
 // Poopy way to get the file path
-	public void getPathLocation() throws URISyntaxException {
-	Path path = Paths.get(FileList.class.getResource("../.").toURI());
-	path = path.getParent();
-	path = path.getParent();
-	path = path.resolve("testcases");
-	System.out.println(path.toString());
-	keyword_path = path.toString(); 
-}
+	public void setLocation() throws URISyntaxException {
+		keywordPath.setPathLocation();
+	}
 
 @Test
-	public void FullRegression() throws Exception
+	public void fullregression() throws Exception
     {
-		
+
+		String keyword_path;
+		keyword_path = keywordPath.getPathLocation();
 		
 		//This is used to go through main functionality of Keyword Driven Approach.
 		//
@@ -70,24 +72,8 @@ public class AppTest extends AbstractPageStepDefinitions
 		KeywordFramework.main(driver, regression);
     }
 
-@Test
-	public void singlePathsingleSheet() throws Exception{
-	//Manually setting the path to workbook you want here
-	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx";
-	String sheetname = "Location Finder";
-	ExcelTestCaseSelector testcase = new ExcelTestCaseSelector(singlepath, sheetname);
-	KeywordFramework.main(driver, testcase);
-}
-
-@Test
-	public void singlePathMultipleSheet() throws Exception{
-	String singlepath = "/Users/julius/eclipse-workspace/MavenWebDriverKeywordFramework-2/testcases/KeywordDrivenFramework-2.xlsx";
-	ExcelTestCaseSelector testcase = new ExcelTestCaseSelector(singlepath);
-	KeywordFramework.main(driver, testcase);
-}
-
 @After
-	public void closeApp() {
+	public void closeapp() {
 		driver.quit();
 	}
 }

@@ -1,4 +1,4 @@
-package step_definitions;
+package keyworddriventesting.commonfunctions;
 
 public class Hooks extends AbstractPageStepDefinitions{
 /*	//WebDriver driver = getDriver();
