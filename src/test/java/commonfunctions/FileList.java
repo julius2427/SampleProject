@@ -1,4 +1,4 @@
-package keyworddriventesting.commonfunctions;
+package commonfunctions;
 
 import java.io.File;
 import java.io.IOException;

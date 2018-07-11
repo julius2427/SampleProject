@@ -1,9 +1,12 @@
-package keyworddriventesting.commonfunctions;
+package commonfunctions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class AbstractPageStepDefinitions {
 	protected WebDriver driver;

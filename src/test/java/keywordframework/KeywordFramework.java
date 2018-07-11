@@ -1,15 +1,17 @@
-package keyworddriventesting;
+package keywordframework;
 import java.io.IOException;
 
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 
+import commonfunctions.ScreenCapture;
 import excelreader.excelRead;
-import keyworddriventesting.commonfunctions.CommonFunctions;
 
-public class KeywordFramework extends CommonFunctions {
+public class KeywordFramework extends KeywordFunctions {
 	static int last_row;
 	private static String keywordPath;
 	private static String sheetName;
@@ -67,19 +69,16 @@ public class KeywordFramework extends CommonFunctions {
 				sendToMethod(driver, data);
 			}
 		else {
-			do {
 				
 				for(int j = 0; j<numberofsheets;j++) {
 					
 					data = excelRead.xlsxfetchDataFromExcelSheetNumber(keywordPath, j);
+					log.info("Test Case Scenarios: " + excelRead.getSheetName());
 					sendToMethod(driver, data);
+				
 				}	
-			}while(!driver.getTitle().contains("Sitefinity Trial Page"));
-			driver.navigate().refresh();
-			log.error("SITEFINITY TRIAL PAGE ERROR");
-
+			}
 		}		
-	}
 	
 	public static void sendToMethod(WebDriver driver, String data[][]) throws IOException, InterruptedException {
 		last_row = excelRead.getLastRowNum();
@@ -104,8 +103,20 @@ public class KeywordFramework extends CommonFunctions {
 				click_element(driver, data[i][4],data[i][5]);
 				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
 				}catch (NoSuchElementException e) {
+					log.error("ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.error("Error Message: " + e);
+				}catch (UnhandledAlertException f) {
+					try {
+						Alert alert = driver.switchTo().alert();
+						String alertText = alert.getText();
+						log.info("ALERT DATA: " + alertText);
+						alert.accept();
+					} catch (NoAlertPresentException e) {
+						log.error("No Alert Found: " + e);
+						log.error("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					}
 					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
-					log.fatal("Error Message: " + e);
+					log.fatal("Error Message: " + f);
 				}
 				break;
 			
@@ -197,9 +208,15 @@ public class KeywordFramework extends CommonFunctions {
 				break;
 			case "takescreenshot":
 				
-				
-				ScreenCapture.takeSnapShot(driver, data[i][3]);
+				try {
+				ScreenCapture.takeSnapShot(driver, data[i][6]);
 				log.info("Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: Pass");
+				
+				}catch(IOException e) {
+					log.fatal("FATAL ERROR: Step No. " + data[i][1] + " Step Name " + data[i][2] + " Result: FAIL");
+					log.fatal("Error Message: " + e);
+				}
+				break;
 			case "quit":
 				quit(driver);
 				break;

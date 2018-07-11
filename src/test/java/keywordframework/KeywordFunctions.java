@@ -1,4 +1,4 @@
-package keyworddriventesting.commonfunctions;
+package keywordframework;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertThat;
@@ -19,14 +19,17 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 
+import commonfunctions.AbstractPageStepDefinitions;
 
-public class CommonFunctions extends AbstractPageStepDefinitions{
+
+public class KeywordFunctions extends AbstractPageStepDefinitions{
 
 	protected static Logger log = Logger.getLogger(Logger.class.getName());
 	
 	public static void navigate_to(WebDriver driver, String url) {
 		
 		driver.navigate().to(url);
+		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);		
 	}
 	public static void send_element(WebDriver driver, String strLocType, String strLocValue, String Param1) {
@@ -103,7 +106,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 		}
 	}
 	
-	public static boolean verify_displayed(WebDriver driver, String strLocType, String strLocValue) {
+	public static boolean verify_displayed(WebDriver driver, String strLocType, String strLocValue) throws InterruptedException {
 		boolean displayed = false;
 		switch(strLocType) {
 		case "id":
@@ -123,6 +126,7 @@ public class CommonFunctions extends AbstractPageStepDefinitions{
 			}
 			break;
 		}
+		Thread.sleep(2000);
 		return displayed;
 
 	}			

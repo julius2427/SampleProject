@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -146,8 +145,11 @@ public class excelRead {
 				
 				XSSFSheet ws= wb.getSheetAt(sheetNumber);
 				//HSSFSheet ws = wb.getSheet(sheetName);
-				
-				
+				String setsheetname;
+
+				//Set the sheet name for test scenarios to indicate properly
+				setsheetname = wb.getSheetName(sheetNumber);
+				setSheetName(setsheetname);
 				int rowNum=ws.getLastRowNum()+1;
 				setLastRowNum(rowNum);
 				int colNum=ws.getRow(0).getLastCellNum();
@@ -181,7 +183,6 @@ public class excelRead {
 	
 	public static String[][] xlsxfetchExcelBySheetName(String path, String sheetname) throws IOException
 	{
-
 		//Change File name as per file location on machine
 //				File excel= new File("F:\\Nilesh Selenium 14th May\\Data.xls");
 				File excel= new File(path);
@@ -189,7 +190,7 @@ public class excelRead {
 				XSSFWorkbook wb= new XSSFWorkbook(fis);
 				
 				XSSFSheet ws = wb.getSheet(sheetname);
-				
+				setSheetName(sheetname);
 				
 				int rowNum=ws.getLastRowNum()+1;
 				setLastRowNum(rowNum);
